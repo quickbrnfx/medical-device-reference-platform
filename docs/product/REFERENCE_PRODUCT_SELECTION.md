@@ -125,6 +125,17 @@ Score Definitions
 | **2** | Human interaction is relatively simple and requires minimal human factors analysis.                                                                                           |
 | **1** | Human factors have little influence on engineering decisions.                                                                                                                 |
 
+Observations
+- Continuous interaction with users significantly increases the importance of human factors engineering.
+- Human factors challenges differ across product categories; complexity is driven by the user context rather than the product alone.
+- The Connected Physiological Monitor, Patient Monitor, and Wearable Health Monitor all require extensive human factors and usability engineering, but for different reasons.
+- The Connected Diagnostic Device remains a strong candidate but generally involves more focused workflows and fewer continuous user interactions.
+
+Lessons Learned
+- Human factors engineering extends far beyond interface design and includes workflow analysis, use-related risk management, training, and environmental considerations.
+- Products intended for frequent or continuous interaction naturally create richer opportunities for usability engineering.
+- Evaluating usability independently from implementation complexity helped produce more objective scores.
+
 ### C4 – Verification
 
 **Question**

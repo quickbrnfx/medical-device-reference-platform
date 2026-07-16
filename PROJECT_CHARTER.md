@@ -40,7 +40,7 @@ Demonstrate a disciplined engineering process by documenting the decisions, trad
 
 # Problem Statement
 
-Many engineering portfolios emphasize implementation while overlooking the engineering process that leads to successful products. This project exists to openly document how complex connected medical devices can be engineered through disciplined systems thinking, secure-by-design principles, human-centered design, and evidence-based verification.
+Many engineering portfolios emphasize implementation while overlooking the engineering process behind complex products. This project exists to document how complex connected medical devices can be engineered through disciplined systems thinking, secure-by-design principles, human-centered design, and evidence-based verification.
 
 ---
 

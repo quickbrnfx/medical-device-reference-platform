@@ -24,8 +24,8 @@ The objective of this document is to evaluate candidate reference products using
 | C2 | Product Cybersecurity | Creates meaningful security decisions.                     |
 | C3 | Human Factors         | Requires user interaction and workflow considerations.     |
 | C4 | Verification          | Can be realistically verified.                             |
-| C5 | Embedded Development  | Requires enough firmware to support the engineering story. |
-| C6 | Project Scope         | Achievable by one engineer within a reasonable timeframe.  |
+| C5 | Project Scope         | Achievable by one engineer within a reasonable timeframe. |
+| C6 | Embedded Development  | Requires enough firmware to support the engineering story.  |
 | C7 | Engineering Demonstration | Clearly demonstrates engineering reasoning and tradeoffs.  |
 
 # Evaluation Methodology

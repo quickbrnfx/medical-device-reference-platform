@@ -93,7 +93,13 @@ Weighted Score = Score × Weight
 
 # Evaluation Results
 
-*(Empty for now.)*
+| Candidate                              | Score | Status     |
+| -------------------------------------- | :---: | ---------- |
+| P1 – Connected Physiological Monitor   | **5** | ✅ Complete |
+| P2 – Connected Patient Monitor         |   ⬜   | Pending    |
+| P3 – Connected Diagnostic Device       |   ⬜   | Pending    |
+| P4 – Connected Wearable Health Monitor |   ⬜   | Pending    |
+
 
 ---
 

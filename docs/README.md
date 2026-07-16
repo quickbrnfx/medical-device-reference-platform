@@ -1,86 +1,88 @@
-# Project Documentation
+# Engineering Documentation
 
-This directory contains the project management and engineering planning artifacts for the Medical Device Reference Platform.
+This directory contains the engineering artifacts that define, design, implement, and verify the Medical Device Reference Platform.
 
-These documents define the project's direction, record engineering decisions, track progress, and establish the engineering process used throughout development.
-
-Unlike implementation artifacts, the documents in this directory describe *how* the project is planned and managed.
+Unlike the project-level documents located in the repository root, the artifacts in this directory describe how the platform is engineered throughout its lifecycle.
 
 ---
 
 # Purpose
 
-The purpose of this directory is to provide a single location for project-level documentation.
+The purpose of this directory is to document the engineering process from product definition through verification.
 
-These artifacts establish:
-
-- Project objectives
-- Engineering milestones
-- Current project status
-- Architectural decisions
-- Planning information
-- Future work
-
-Together, they form the management layer that supports the engineering case study.
+These artifacts capture engineering decisions, requirements, architecture, verification evidence, and supporting analyses that collectively form the project's engineering case study.
 
 ---
 
-# Directory Contents
-
-| Document | Purpose |
-|----------|---------|
-| PROJECT_CHARTER.md | Defines the project's vision, mission, guiding principles, roadmap, and Definition of Done. |
-| ROADMAP.md | High-level milestone plan for the project. |
-| CURRENT_STATE.md | Snapshot of the current project status and immediate priorities. |
-| BACKLOG.md | Prioritized engineering and repository work that has not yet been started. |
-| DECISION_LOG.md | Chronological index of significant engineering decisions and associated ADRs. |
-| REPOSITORY_INFRASTRUCTURE.md | Defines the repository infrastructure work required to support future engineering activities. |
-
-Additional project documents may be added as the repository evolves.
-
----
-
-# Relationship to Other Documentation
-
-Project documentation answers questions such as:
-
-- Why does this project exist?
-- What are we working on now?
-- What work remains?
-- What engineering decisions have been made?
-
-Other directories answer different questions:
+# Documentation Structure
 
 | Directory | Purpose |
 |-----------|---------|
-| `docs/adr/` | Long-term architectural decisions. |
-| `docs/requirements/` | System and stakeholder requirements. |
-| `docs/architecture/` | System architecture and design. |
-| `docs/verification/` | Verification strategy and evidence. |
-| `docs/product/` | Product definition and engineering evaluations. |
+| `adr/` | Architecture Decision Records (ADRs) documenting significant engineering decisions. |
+| `architecture/` | System architecture, interfaces, and design artifacts. |
+| `product/` | Product definition, product evaluations, and reference product selection. |
+| `requirements/` | Stakeholder, user, and system requirements. |
+| `verification/` | Verification strategy, plans, procedures, and verification evidence. |
+| `cybersecurity/` | Product cybersecurity analyses and supporting documentation. |
+| `human-factors/` | Human factors engineering and usability documentation. |
+| `embedded/` | Embedded systems engineering documentation and implementation guidance. |
+
+Additional engineering documentation may be added as the project evolves.
 
 ---
 
-# Guiding Principles
+# Repository Organization
 
-Project documentation should:
+The repository is organized into three complementary layers.
 
-- Be concise.
-- Be traceable.
-- Reflect the current state of the project.
-- Capture engineering rationale rather than implementation details.
-- Remain consistent with the Project Charter.
+| Layer | Purpose |
+|-------|---------|
+| Repository Root | Project vision, planning, roadmap, and current project status. |
+| `docs/` | Engineering documentation and engineering decisions. |
+| Source Directories | Firmware, hardware, testing, and other implementation artifacts. |
+
+This organization separates project management from engineering execution while maintaining complete project traceability within a single repository.
+
+---
+
+# Engineering Lifecycle
+
+Engineering documentation generally follows the progression below.
+
+```text
+Product Definition
+        ↓
+Requirements
+        ↓
+Architecture
+      ↙       ↘
+Implementation  Verification
+```
+
+Engineering activities remain iterative throughout the project. This sequence represents the primary flow of engineering information rather than a strictly linear development process.
 
 ---
 
 # Navigation
 
-For readers new to the project, the recommended reading order is:
+For readers new to the engineering documentation, the recommended reading order is:
 
-1. PROJECT_CHARTER.md
-2. REFERENCE_PRODUCT_SELECTION.md
-3. ADR-001 — Reference Product Selection
-4. CURRENT_STATE.md
-5. ROADMAP.md
+1. `product/REFERENCE_PRODUCT_SELECTION.md`
+2. `adr/ADR-001-reference-product-selection.md`
+3. `requirements/`
+4. `architecture/`
+5. `verification/`
 
-This sequence provides the context needed to understand the project's objectives before reviewing implementation artifacts.
+Readers unfamiliar with the project should begin with the repository `README.md` and `PROJECT_CHARTER.md` before exploring the engineering documentation.
+
+---
+
+# Guiding Principles
+
+Engineering documentation should:
+
+- Explain why engineering decisions were made.
+- Maintain traceability across the engineering lifecycle.
+- Be concise, maintainable, and version controlled.
+- Prioritize engineering reasoning over implementation details.
+- Remain consistent with the Project Charter.

@@ -20,7 +20,7 @@ The objective of this document is to evaluate candidate reference products using
 
 ## Selection Criteria
 
-| ID | Criterion             | Why it Matters                                             |
+| ID | Criterion             | Why it Matters                                             | Justification |
 | -- | --------------------- | ---------------------------------------------------------- |
 | C1 | Systems Engineering   | Drives requirements, architecture, and traceability.       |
 | C2 | Product Cybersecurity | Creates meaningful security decisions.                     |

@@ -28,7 +28,7 @@ The objective of this document is to evaluate candidate reference products using
 | C4 | Verification          | Can be realistically verified.                             |
 | C5 | Embedded Development  | Requires enough firmware to support the engineering story. |
 | C6 | Project Scope         | Achievable by one engineer within a reasonable timeframe.  |
-| C7 | Educational Value     | Clearly demonstrates engineering reasoning and tradeoffs.  |
+| C7 | Engineering Demonstration | Clearly demonstrates engineering reasoning and tradeoffs.  |
 
 ## Candidate Products
 

@@ -87,10 +87,6 @@ Weighted Score = Score × Weight
 | **3** | Requires basic product security considerations but security is not a primary architectural driver.                                                                                                        |
 | **2** | Requires only limited product security decisions.                                                                                                                                                         |
 | **1** | Product cybersecurity plays a minimal role in the engineering process.                                                                                                                                    |
-
-
-*(C2–C7 will be added as we define them.)*
-
 ---
 
 ## Candidate Products
@@ -107,12 +103,16 @@ Weighted Score = Score × Weight
 
 # Evaluation Results
 
+### C1 – Systems Engineering
+
 | Candidate                              | Score | Status |
 | -------------------------------------- | :---: | ------ |
 | P1 – Connected Physiological Monitor   | **5** | ✅      |
 | P2 – Connected Patient Monitor         | **4** | ✅      |
 | P3 – Connected Diagnostic Device       | **4** | ✅      |
 | P4 – Connected Wearable Health Monitor |   ⬜   |        |
+
+### C2 – Product Cybersecurity
 
 | Candidate                              | Score | Status |
 | -------------------------------------- | :---: | ------ |

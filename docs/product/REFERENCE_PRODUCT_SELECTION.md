@@ -78,14 +78,14 @@ Weighted Score = Score × Weight
 
 ---
 
-# Candidate Products
+## Candidate Products
 
-| ID | Candidate                         | Representative Example                                                                           |
-| -- | --------------------------------- | ------------------------------------------------------------------------------------------------ |
-| P1 | Connected Physiological Monitor   | Multi-parameter vital signs monitor |
-| P2 | Connected Patient Monitor         | Bedside patient monitor |
-| P3 | Connected Diagnostic Device       | Point-of-care diagnostic analyzer      |
-| P4 | Connected Wearable Health Monitor | Wearable ECG or health monitoring patch      |
+| ID | Candidate | Summary | Representative Example |
+|----|-----------|---------|------------------------|
+| P1 | Connected Physiological Monitor | Acquires physiological measurements and securely communicates them for monitoring and analysis. | Multi-parameter vital signs monitor |
+| P2 | Connected Patient Monitor | Aggregates data from multiple sources to present patient status, alarms, and device information. | Bedside patient monitor |
+| P3 | Connected Diagnostic Device | Performs diagnostic measurements and presents results to support clinical decision making. | Point-of-care diagnostic analyzer |
+| P4 | Connected Wearable Health Monitor | Continuously collects physiological data in a wearable form factor for remote monitoring. | Wearable ECG or health monitoring patch |
 
 
 ---

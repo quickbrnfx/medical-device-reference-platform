@@ -74,6 +74,14 @@ Weighted Score = Score × Weight
 | 2 | Minimal systems engineering required. |
 | 1 | Mostly implementation-focused with little systems engineering value. |
 
+| Candidate                              | Score | Status |
+| -------------------------------------- | :---: | ------ |
+| P1 – Connected Physiological Monitor   | **5** | ✅      |
+| P2 – Connected Patient Monitor         |   ⬜   |        |
+| P3 – Connected Diagnostic Device       |   ⬜   |        |
+| P4 – Connected Wearable Health Monitor |   ⬜   |        |
+
+
 *(C2–C7 will be added as we define them.)*
 
 ---

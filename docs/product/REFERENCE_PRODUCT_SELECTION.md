@@ -19,6 +19,15 @@ The objective of this document is to evaluate candidate reference products using
 
 ## Candidate Products
 
+## Candidate Products
+
+| ID | Candidate |
+|----|-----------|
+| P1 | Connected Physiological Monitor |
+| P2 | Connected Patient Monitor |
+| P3 | Connected Diagnostic Device |
+| P4 | Connected Wearable Health Monitor |
+
 ## Evaluation Matrix
 
 ## Recommendation

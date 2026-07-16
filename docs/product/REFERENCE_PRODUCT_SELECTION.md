@@ -168,13 +168,14 @@ Verification engineering encompasses planning, execution, objective evidence, an
 
 > How well does this product fit the intended scope of Version 1 while enabling a complete, high-quality engineering case study?
 
-| Score | Definition                                                                                                                                                                                       |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **5** | The product fits comfortably within the intended scope of Version 1 while providing excellent opportunities to demonstrate the complete engineering lifecycle from concept through verification. |
-| **4** | The product is achievable within Version 1 but requires careful scope management to maintain focus.                                                                                              |
-| **3** | The product is achievable only with significant scope reduction or by deferring substantial engineering content.                                                                                 |
-| **2** | The product is likely to exceed the intended scope of Version 1, increasing the risk of an incomplete case study.                                                                                |
-| **1** | The product is unrealistic for Version 1 and would likely prevent completion of the intended engineering case study.                                                                             |
+| Score | Definition                                                                                                                                                                                   |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **5** | The product can realistically satisfy the Version 1 Definition of Done while demonstrating the complete engineering lifecycle without significant scope reduction or unnecessary complexity. |
+| **4** | The product is achievable within Version 1 but requires disciplined scope management and selective deferral of lower-priority features.                                                      |
+| **3** | The product is achievable only through significant scope reduction, limiting the completeness of the engineering case study.                                                                 |
+| **2** | The product is unlikely to satisfy the Version 1 Definition of Done without major compromises or extended timelines.                                                                         |
+| **1** | The product is not a realistic fit for Version 1 and is likely to prevent completion of a coherent engineering case study.                                                                   |
+
 
 
 ---

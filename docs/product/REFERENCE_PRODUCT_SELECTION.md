@@ -99,7 +99,6 @@ Lessons Learned
 | **2** | Requires only limited product security decisions.                                                                                                                                                         |
 | **1** | Product cybersecurity plays a minimal role in the engineering process.                                                                                                                                    |
 
-
 Observations
 
 - Cybersecurity is a first-order engineering concern for all connected medical device categories.
@@ -150,6 +149,32 @@ Score Definitions
 | **3** | Requires meaningful verification but with limited system complexity or traceability needs.                                                                                                                  |
 | **2** | Verification is relatively straightforward and limited in scope.                                                                                                                                            |
 | **1** | Minimal verification planning or evidence is required.                                                                                                                                                      |
+Observations
+The Connected Physiological Monitor, Patient Monitor, and Wearable Health Monitor all provide excellent opportunities to demonstrate verification engineering across the full product lifecycle.
+The Connected Diagnostic Device remains a strong verification candidate but generally involves fewer continuously interacting subsystems and operational scenarios.
+Verification complexity is driven by the interactions between subsystems and interfaces rather than the number of individual components.
+All four candidates naturally support requirements traceability and objective verification evidence.
+
+Lessons Learned
+Effective verification engineering begins with well-defined requirements and traceability rather than test execution alone.
+Products with multiple interacting subsystems create richer opportunities to demonstrate verification planning, integration testing, and system-level validation.
+Verification strategy should be considered throughout product development rather than treated as a final project phase.
+Verification engineering encompasses planning, execution, objective evidence, and traceability—not simply writing and running tests.
+
+### C5 – Project Scope
+
+**Question**
+
+> How well does this product fit the intended scope of Version 1 while enabling a complete, high-quality engineering case study?
+
+| Score | Definition                                                                                                                                                                                       |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **5** | The product fits comfortably within the intended scope of Version 1 while providing excellent opportunities to demonstrate the complete engineering lifecycle from concept through verification. |
+| **4** | The product is achievable within Version 1 but requires careful scope management to maintain focus.                                                                                              |
+| **3** | The product is achievable only with significant scope reduction or by deferring substantial engineering content.                                                                                 |
+| **2** | The product is likely to exceed the intended scope of Version 1, increasing the risk of an incomplete case study.                                                                                |
+| **1** | The product is unrealistic for Version 1 and would likely prevent completion of the intended engineering case study.                                                                             |
+
 
 ---
 

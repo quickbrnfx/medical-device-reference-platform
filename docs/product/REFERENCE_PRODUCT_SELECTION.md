@@ -227,7 +227,17 @@ Implementation should continue to validate engineering decisions rather than bec
 | **2** | Demonstrates isolated engineering concepts but does not naturally support a cohesive engineering case study.                                                                                                                                                    |
 | **1** | Provides limited value for demonstrating the engineering process defined by the Project Charter.                                                                                                                                                                |
 
+Observations
+The Connected Physiological Monitor provides the most balanced engineering narrative across the entire product lifecycle.
+The Connected Patient Monitor offers exceptional engineering depth but requires greater effort to maintain a focused case study.
+The Connected Diagnostic Device provides a clean and approachable engineering story but demonstrates a narrower range of engineering interactions.
+The Connected Wearable Health Monitor offers a compelling modern engineering narrative but requires disciplined system boundary management to prevent ecosystem expansion from dominating the project.
 
+Lessons Learned
+A compelling engineering case study is defined by the quality and traceability of engineering decisions rather than the complexity of the product.
+The strongest educational artifacts balance breadth and depth across engineering disciplines instead of maximizing implementation complexity.
+A clear and defensible system boundary is essential for maintaining a coherent engineering narrative.
+Engineering documentation should explain why decisions were made, not simply record what was built.
 
 ---
 

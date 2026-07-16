@@ -24,11 +24,11 @@ Repository Established
 
 ---
 
-# Vision
+## Vision
 
-The Medical Device Reference Platform is an open engineering case study demonstrating how modern connected medical devices can be designed using systems engineering, embedded development, product cybersecurity, human-centered design, and verification engineering.
+The Medical Device Reference Platform is an open engineering case study demonstrating how modern connected medical devices are engineered through systems engineering, embedded development, product cybersecurity, human-centered design, and verification engineering.
 
-Rather than focusing solely on implementation, this project documents the engineering decisions that shape a product throughout its lifecycle, from concept and requirements through architecture, implementation, and verification.
+Rather than focusing solely on implementation, this project documents the engineering decisions that shape the product throughout its lifecycle, from concept and requirements through architecture, implementation, and verification.
 
 ---
 

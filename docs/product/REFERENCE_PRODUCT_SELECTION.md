@@ -188,6 +188,21 @@ A more ambitious product does not necessarily produce a better engineering case 
 Well-defined system boundaries reduce scope creep and improve the likelihood of completing a coherent engineering narrative.
 Version 1 should optimize for demonstrating the engineering lifecycle rather than maximizing feature count.
 
+### C6 – Embedded Development
+
+**Question**
+
+> How well does this product create opportunities to demonstrate embedded systems engineering while maintaining the project's focus on the overall engineering lifecycle?
+
+| Score | Definition                                                                                                                                                                                                                                |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **5** | Naturally supports meaningful embedded systems engineering across firmware architecture, hardware/software interfaces, communications, diagnostics, and lifecycle considerations without allowing implementation to dominate the project. |
+| **4** | Provides substantial embedded development opportunities but with a narrower range of embedded engineering activities or greater reliance on external systems.                                                                             |
+| **3** | Supports moderate embedded development but limits opportunities to demonstrate broader embedded systems engineering concepts.                                                                                                             |
+| **2** | Embedded development is relatively limited or secondary to other engineering disciplines.                                                                                                                                                 |
+| **1** | Embedded development plays only a minor role in the product.                                                                                                                                                                              |
+
+
 ---
 
 ## Candidate Products

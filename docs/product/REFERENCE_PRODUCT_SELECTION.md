@@ -201,6 +201,7 @@ Version 1 should optimize for demonstrating the engineering lifecycle rather tha
 | **3** | Supports moderate embedded development but limits opportunities to demonstrate broader embedded systems engineering concepts.                                                                                                             |
 | **2** | Embedded development is relatively limited or secondary to other engineering disciplines.                                                                                                                                                 |
 | **1** | Embedded development plays only a minor role in the product.                                                                                                                                                                              |
+
 Observations
 The Connected Physiological Monitor, Patient Monitor, and Wearable Health Monitor all provide excellent opportunities to demonstrate embedded systems engineering, each emphasizing different aspects of the discipline.
 The Connected Diagnostic Device remains a strong embedded platform but generally involves fewer real-time interactions and embedded subsystems.

@@ -10,13 +10,14 @@ Items should remain concise, actionable, and traceable to the project's engineer
 
 # Summary
 
-| ID | Title | Priority | Status |
-|----|-------|----------|--------|
-| RI-001 | Standardize Documentation Directory READMEs | Medium | Backlog |
-| RI-002 | Create ADR Template | High | Backlog |
-| RI-003 | Create Requirement Template | High | Backlog |
-| RI-004 | Create CURRENT_STATE.md | High | Backlog |
-| RI-005 | Create DECISION_LOG.md | Medium | Backlog |
+| ID     | Title                                       | Priority | Status  |
+| ------ | ------------------------------------------- | -------- | ------- |
+| RI-001 | Standardize Documentation Directory READMEs | Medium   | Backlog |
+| RI-002 | Create ADR Template                         | High     | Backlog |
+| RI-003 | Create Requirement Template                 | High     | Backlog |
+| RI-004 | Refine CURRENT_STATE.md                     | High     | Backlog |
+| RI-005 | Create DECISION_LOG.md                      | Medium   | Backlog |
+| RI-006 | Create `docs/README.md`                     | High     | Backlog |
 
 ---
 
@@ -170,3 +171,60 @@ Examples include:
 - Human Factors & Usability
 - Embedded Systems Engineering
 - Repository Improvements
+
+---
+
+## RI-006 — Create Engineering Documentation Index (`docs/README.md`)
+
+**Status**
+
+Complete
+
+**Priority**
+
+High
+
+**Description**
+
+Create the entry point for all engineering documentation contained within the `docs/` directory. This document provides an overview of the engineering documentation structure and guides readers to the appropriate engineering artifacts.
+
+**Acceptance Criteria**
+
+- `docs/README.md` exists.
+- Engineering documentation hierarchy is documented.
+- Relationships between engineering documentation areas are explained.
+- Navigation to major documentation directories is provided.
+
+**Dependencies**
+
+Repository documentation structure established.
+
+**Notes**
+
+Originally implemented as `docs/project/README.md` and later relocated to `docs/README.md` following the repository organization decision.
+
+---
+
+## RI-007 — Repository Root README Reorganization
+
+**Status**
+
+Backlog
+
+**Priority**
+
+Low
+
+**Description**
+
+Update the root README to document the repository organization, including the distinction between project artifacts, engineering documentation, and implementation artifacts.
+
+**Acceptance Criteria**
+
+- Repository organization documented.
+- Navigation to major documentation areas included.
+- Engineering documentation hierarchy explained.
+
+**Dependencies**
+
+Repository structure stabilized.

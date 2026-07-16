@@ -64,12 +64,12 @@ Version 1 of the Medical Device Reference Platform includes:
 # Non-Goals
 
 This project is NOT:
-An FDA submission.
-A commercial medical device.
-A clinical device.
-A regulatory guide.
-A penetration testing framework.
-A product intended for patient use.
+- An FDA submission.
+- A commercial medical device.
+- A clinical device.
+- A regulatory guide.
+- A penetration testing framework.
+- A product intended for patient use.
 
 ---
 

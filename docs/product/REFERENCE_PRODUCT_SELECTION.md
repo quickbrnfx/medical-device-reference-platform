@@ -110,19 +110,21 @@ Lessons Learned
 - Product cybersecurity is driven more by system interactions than by the sensing technology itself.
 - Separating cybersecurity from project scope helped produce more objective scores.
 
-C3 – Human Factors & Usability
+### C3 – Human Factors & Usability
 
-Question
+**Question**
 
-How well does this product create opportunities to demonstrate human factors engineering and usability engineering throughout the product lifecycle?
+> How well does this product create opportunities to demonstrate human factors engineering and usability engineering throughout the product lifecycle?
 
 Score Definitions
-Score	Definition
-5	Human factors are a primary engineering driver, requiring user research, workflow analysis, use-related risk analysis, iterative usability evaluation, and design validation.
-4	Human factors significantly influence product design and verification but are not the dominant engineering driver.
-3	Human factors contribute to the design but are limited in scope or complexity.
-2	Human interaction is relatively simple and requires minimal human factors analysis.
-1	Human factors have little influence on engineering decisions.
+| Score | Definition                                                                                                                                                                    |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **5** | Human factors are a primary engineering driver, requiring user research, workflow analysis, use-related risk analysis, iterative usability evaluation, and design validation. |
+| **4** | Human factors significantly influence product design and verification but are not the dominant engineering driver.                                                            |
+| **3** | Human factors contribute to the design but are limited in scope or complexity.                                                                                                |
+| **2** | Human interaction is relatively simple and requires minimal human factors analysis.                                                                                           |
+| **1** | Human factors have little influence on engineering decisions.                                                                                                                 |
+
 
 ---
 

@@ -2,6 +2,8 @@
 
 ## Objective
 
+The objective of this document is to evaluate candidate reference products using consistent engineering criteria and document the rationale for selecting the product that best demonstrates the engineering process defined in the Project Charter.
+
 ## Selection Criteria
 
 | ID | Criterion             | Why it Matters                                             |

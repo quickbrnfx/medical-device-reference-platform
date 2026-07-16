@@ -23,6 +23,9 @@ Repository Established
 ⚪ Release
 
 ---
+# Project Charter
+
+This document defines the purpose, scope, and guiding principles for the Medical Device Reference Platform. It serves as the project's primary governance document and should be reviewed before contributing to the repository.
 
 ## Vision
 
@@ -114,10 +117,17 @@ Version 1 of the project is considered successful when:
 
 # Milestone Roadmap
 
-High level milestones.
+For the current project roadmap and milestone status, see ROADMAP.md.
 
 ---
 
-# Definition of Done
+## Definition of Done
 
-When can Version 1 be considered complete?
+Version 1 of the Medical Device Reference Platform is considered complete when:
+
+- The Project Charter, Requirements, Architecture, Security, UX, and Verification documentation are complete and internally consistent.
+- The reference implementation demonstrates the documented engineering decisions.
+- Major engineering decisions are documented and traceable.
+- Key requirements are verified with documented evidence.
+- The repository can be understood by an engineer without additional explanation.
+- The repository presents a complete engineering case study from concept through verification.

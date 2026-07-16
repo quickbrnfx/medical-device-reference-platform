@@ -30,15 +30,6 @@ The objective of this document is to evaluate candidate reference products using
 | C6 | Project Scope         | Achievable by one engineer within a reasonable timeframe.  |
 | C7 | Engineering Demonstration | Clearly demonstrates engineering reasoning and tradeoffs.  |
 
-## Candidate Products
-
-| ID | Candidate |
-|----|-----------|
-| P1 | Connected Physiological Monitor |
-| P2 | Connected Patient Monitor |
-| P3 | Connected Diagnostic Device |
-| P4 | Connected Wearable Health Monitor |
-
 # Evaluation Methodology
 
 ## Criterion Weights

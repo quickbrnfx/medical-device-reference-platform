@@ -78,14 +78,15 @@ Weighted Score = Score × Weight
 
 **Question**
 
-> How rich is the cybersecurity engineering problem?
+> How well does this product create opportunities to demonstrate secure-by-design engineering throughout the product lifecycle?
 
-| Candidate                              | Score | Status |
-| -------------------------------------- | :---: | ------ |
-| P1 – Connected Physiological Monitor   | **5** | ✅      |
-| P2 – Connected Patient Monitor         | **5** | ✅      |
-| P3 – Connected Diagnostic Device       |   ⬜   |        |
-| P4 – Connected Wearable Health Monitor |   ⬜   |        |
+| Score | Definition                                                                                                                                                                                                |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **5** | Naturally requires identity, authentication, authorization, secure communications, secure update mechanisms, threat modeling, trust boundaries, and security verification as core engineering activities. |
+| **4** | Requires several significant product cybersecurity activities but with fewer interacting trust boundaries or security mechanisms.                                                                         |
+| **3** | Requires basic product security considerations but security is not a primary architectural driver.                                                                                                        |
+| **2** | Requires only limited product security decisions.                                                                                                                                                         |
+| **1** | Product cybersecurity plays a minimal role in the engineering process.                                                                                                                                    |
 
 
 *(C2–C7 will be added as we define them.)*

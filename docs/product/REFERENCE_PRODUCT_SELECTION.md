@@ -74,6 +74,16 @@ Weighted Score = Score × Weight
 | 2 | Minimal systems engineering required. |
 | 1 | Mostly implementation-focused with little systems engineering value. |
 
+Observations
+- The Connected Physiological Monitor provides the richest standalone systems engineering problem.
+- The Patient Monitor and Wearable Health Monitor both require substantial systems engineering, but for different reasons.
+- The Connected Diagnostic Device remains a strong candidate but generally has a narrower systems context.
+- All four candidates require meaningful systems engineering; none were eliminated by this criterion.
+Lessons Learned
+- Systems engineering value is driven by the interactions between subsystems rather than the complexity of any individual component.
+- It is important to evaluate systems engineering independently of project scope to avoid biasing the results.
+- A product does not need to be the most complex system to provide a valuable systems engineering case study.
+
 ### C2 – Product Cybersecurity
 
 **Question**

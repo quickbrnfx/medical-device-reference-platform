@@ -26,7 +26,7 @@ The objective of this document is to evaluate candidate reference products using
 | C4 | Verification          | Can be realistically verified.                             |
 | C5 | Project Scope         | Achievable by one engineer within a reasonable timeframe. |
 | C6 | Embedded Development  | Requires enough firmware to support the engineering story.  |
-| C7 | Engineering Demonstration | Clearly demonstrates engineering reasoning and tradeoffs.  |
+| C7 | Engineering Case Study | Clearly demonstrates engineering reasoning and tradeoffs.  |
 
 # Evaluation Methodology
 
@@ -40,7 +40,7 @@ The objective of this document is to evaluate candidate reference products using
 | C4 | Verification | 5 |
 | C5 | Project Scope | 5 |
 | C6 | Embedded Development | 4 |
-| C7 | Engineering Demonstration | 5 |
+| C7 | Engineering Case Study | 5 |
 
 ---
 
@@ -298,6 +298,16 @@ Implementation should continue to validate engineering decisions rather than bec
 | P2 – Connected Patient Monitor         | **5** | ✅      |
 | P3 – Connected Diagnostic Device       | **4** | ✅      |
 | P4 – Connected Wearable Health Monitor | **5** | ✅      |
+
+### C7 – Engineering Case Study
+
+| Candidate                              | Score | Status |
+| -------------------------------------- | :---: | ------ |
+| P1 – Connected Physiological Monitor   | **5** | ✅      |
+| P2 – Connected Patient Monitor         | **4** | ✅      |
+| P3 – Connected Diagnostic Device       | **4** | ✅      |
+| P4 – Connected Wearable Health Monitor | **4** | ✅      |
+
 
 
 

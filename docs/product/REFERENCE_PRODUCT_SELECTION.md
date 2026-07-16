@@ -399,7 +399,129 @@ These findings provide the basis for the recommendation presented in the followi
 
 # Recommendation
 
-*(Pending.)*
+## Recommended Reference Product
+
+**Connected Physiological Monitor**
+
+---
+
+## Recommendation
+
+Based on the evaluation documented in this report, the **Connected Physiological Monitor** is recommended as the Version 1 reference product for the Medical Device Reference Platform.
+
+While each candidate demonstrated meaningful engineering value, the Connected Physiological Monitor consistently provided the best balance between engineering breadth, project scope, and the ability to communicate disciplined engineering throughout the complete product lifecycle.
+
+The evaluation demonstrated that the selected product naturally supports:
+
+- Systems Engineering
+- Embedded Systems Engineering
+- Product Cybersecurity
+- Human Factors & Usability
+- Verification Engineering
+- Requirements Engineering
+- System Architecture
+- Engineering Decision Making
+- Requirements Traceability
+
+without allowing any single engineering discipline to dominate the project.
+
+---
+
+## Alternatives Considered
+
+### Connected Patient Monitor
+
+The Connected Patient Monitor provides exceptional opportunities to demonstrate systems integration, alarm management, and complex clinical workflows.
+
+However, these additional capabilities significantly increase project scope and make it more difficult to maintain a focused Version 1 engineering case study.
+
+---
+
+### Connected Diagnostic Device
+
+The Connected Diagnostic Device offers a well-defined engineering problem with clear system boundaries and manageable scope.
+
+While it represents an excellent engineering project, it provides fewer opportunities to demonstrate the breadth of engineering disciplines represented by the project vision.
+
+---
+
+### Connected Wearable Health Monitor
+
+The Connected Wearable Health Monitor demonstrates modern embedded systems engineering, low-power design, wireless connectivity, and mobile integration.
+
+However, it requires more deliberate management of system boundaries to prevent companion applications and cloud services from becoming the primary engineering focus of Version 1.
+
+---
+
+# Recommendation
+
+## Recommended Reference Product
+
+**Connected Physiological Monitor**
+
+---
+
+## Recommendation
+
+Based on the evaluation documented in this report, the **Connected Physiological Monitor** is recommended as the Version 1 reference product for the Medical Device Reference Platform.
+
+While each candidate demonstrated meaningful engineering value, the Connected Physiological Monitor consistently provided the best balance between engineering breadth, project scope, and the ability to communicate disciplined engineering throughout the complete product lifecycle.
+
+The evaluation demonstrated that the selected product naturally supports:
+
+- Systems Engineering
+- Embedded Systems Engineering
+- Product Cybersecurity
+- Human Factors & Usability
+- Verification Engineering
+- Requirements Engineering
+- System Architecture
+- Engineering Decision Making
+- Requirements Traceability
+
+without allowing any single engineering discipline to dominate the project.
+
+---
+
+## Alternatives Considered
+
+### Connected Patient Monitor
+
+The Connected Patient Monitor provides exceptional opportunities to demonstrate systems integration, alarm management, and complex clinical workflows.
+
+However, these additional capabilities significantly increase project scope and make it more difficult to maintain a focused Version 1 engineering case study.
+
+---
+
+### Connected Diagnostic Device
+
+The Connected Diagnostic Device offers a well-defined engineering problem with clear system boundaries and manageable scope.
+
+While it represents an excellent engineering project, it provides fewer opportunities to demonstrate the breadth of engineering disciplines represented by the project vision.
+
+---
+
+### Connected Wearable Health Monitor
+
+The Connected Wearable Health Monitor demonstrates modern embedded systems engineering, low-power design, wireless connectivity, and mobile integration.
+
+However, it requires more deliberate management of system boundaries to prevent companion applications and cloud services from becoming the primary engineering focus of Version 1.
+
+---
+
+## Recommendation Summary
+
+The Connected Physiological Monitor is recommended because it provides the strongest balance between:
+
+- Engineering breadth
+- Project scope
+- Educational value
+- Engineering traceability
+- Long-term extensibility
+
+Most importantly, it best supports the project's mission to demonstrate disciplined engineering from concept through verification while maintaining a coherent and well-defined engineering narrative.
+
+This recommendation forms the basis for the final project decision documented in the following section.
 
 ---
 

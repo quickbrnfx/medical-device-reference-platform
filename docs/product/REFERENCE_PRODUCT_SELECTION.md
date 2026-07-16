@@ -39,9 +39,9 @@ The objective of this document is to evaluate candidate reference products using
 | P3 | Connected Diagnostic Device |
 | P4 | Connected Wearable Health Monitor |
 
-## Evaluation Matrix
+# Evaluation Methodology
 
-### Weights
+## Criterion Weights
 
 | ID | Criterion | Weight |
 |----|-----------|:------:|
@@ -53,7 +53,9 @@ The objective of this document is to evaluate candidate reference products using
 | C6 | Embedded Development | 4 |
 | C7 | Engineering Demonstration | 5 |
 
-### Scoring
+---
+
+## Scoring Scale
 
 | Score | Meaning |
 |-------|---------|
@@ -63,8 +65,53 @@ The objective of this document is to evaluate candidate reference products using
 | 4 | Strong Fit |
 | 5 | Excellent Fit |
 
-**Weighted Score = Score × Weight**
+Weighted Score = Score × Weight
 
-## Recommendation
+---
 
-## Final Decision
+## Scoring Rubrics
+
+### C1 – Systems Engineering
+
+**Question**
+
+> How well does this product naturally support systems engineering activities throughout its lifecycle?
+
+| Score | Definition |
+|-------|------------|
+| 5 | Naturally requires substantial requirements development, architecture, interface definition, trade studies, traceability, risk management, and verification planning. |
+| 4 | Requires most systems engineering activities but with lower complexity. |
+| 3 | Requires some systems engineering but has limited architectural depth. |
+| 2 | Minimal systems engineering required. |
+| 1 | Mostly implementation-focused with little systems engineering value. |
+
+*(C2–C7 will be added as we define them.)*
+
+---
+
+# Candidate Products
+
+| ID | Candidate |
+|----|-----------|
+| P1 | Connected Physiological Monitor |
+| P2 | Connected Patient Monitor |
+| P3 | Connected Diagnostic Device |
+| P4 | Connected Wearable Health Monitor |
+
+---
+
+# Evaluation Results
+
+*(Empty for now.)*
+
+---
+
+# Recommendation
+
+*(Pending.)*
+
+---
+
+# Final Decision
+
+*(Pending.)*

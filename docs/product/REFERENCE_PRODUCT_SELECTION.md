@@ -1,5 +1,19 @@
 # Reference Product Selection
 
+REFERENCE_PRODUCT_SELECTION.md
+
+✅ Objective
+
+✅ Selection Criteria
+
+✅ Candidate Products
+
+⬜ Evaluation Matrix
+
+⬜ Recommendation
+
+⬜ Final Decision
+
 ## Objective
 
 The objective of this document is to evaluate candidate reference products using consistent engineering criteria and document the rationale for selecting the product that best demonstrates the engineering process defined in the Project Charter.
@@ -16,9 +30,6 @@ The objective of this document is to evaluate candidate reference products using
 | C6 | Project Scope         | Achievable by one engineer within a reasonable timeframe.  |
 | C7 | Educational Value     | Clearly demonstrates engineering reasoning and tradeoffs.  |
 
-
-## Candidate Products
-
 ## Candidate Products
 
 | ID | Candidate |
@@ -29,6 +40,22 @@ The objective of this document is to evaluate candidate reference products using
 | P4 | Connected Wearable Health Monitor |
 
 ## Evaluation Matrix
+
+Criterion 1
+
+Systems Engineering
+
+Question:
+
+Does this product naturally require meaningful requirements, architecture, tradeoffs, and traceability?
+
+Score each candidate.
+
+Discuss.
+
+Accept.
+
+Commit.
 
 ## Recommendation
 

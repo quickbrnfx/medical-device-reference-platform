@@ -70,9 +70,16 @@ A product intended for patient use.
 
 ---
 
-# Stakeholders
+## Stakeholders
 
-Who benefits?
+The primary stakeholders for this project are:
+
+- Systems engineers seeking practical examples of engineering methodology.
+- Embedded software engineers interested in how implementation supports systems engineering decisions.
+- Product cybersecurity engineers exploring secure-by-design development practices.
+- Human factors and UX practitioners interested in engineering decision making.
+- Engineering managers and technical leaders evaluating engineering process and communication.
+- Students and early-career engineers seeking an end-to-end engineering case study.
 
 ---
 

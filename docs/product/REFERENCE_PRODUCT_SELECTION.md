@@ -118,7 +118,7 @@ Weighted Score = Score × Weight
 | -------------------------------------- | :---: | ------ |
 | P1 – Connected Physiological Monitor   | **5** | ✅      |
 | P2 – Connected Patient Monitor         | **5** | ✅      |
-| P3 – Connected Diagnostic Device       |   ⬜   |        |
+| P3 – Connected Diagnostic Device       | **4** | ✅      |
 | P4 – Connected Wearable Health Monitor |   ⬜   |        |
 
 

@@ -41,21 +41,29 @@ The objective of this document is to evaluate candidate reference products using
 
 ## Evaluation Matrix
 
-Criterion 1
+### Weights
 
-Systems Engineering
+| ID | Criterion | Weight |
+|----|-----------|:------:|
+| C1 | Systems Engineering | 5 |
+| C2 | Product Cybersecurity | 5 |
+| C3 | Human Factors | 5 |
+| C4 | Verification | 5 |
+| C5 | Project Scope | 5 |
+| C6 | Embedded Development | 4 |
+| C7 | Engineering Demonstration | 5 |
 
-Question:
+### Scoring
 
-Does this product naturally require meaningful requirements, architecture, tradeoffs, and traceability?
+| Score | Meaning |
+|-------|---------|
+| 1 | Poor Fit |
+| 2 | Weak Fit |
+| 3 | Adequate Fit |
+| 4 | Strong Fit |
+| 5 | Excellent Fit |
 
-Score each candidate.
-
-Discuss.
-
-Accept.
-
-Commit.
+**Weighted Score = Score × Weight**
 
 ## Recommendation
 

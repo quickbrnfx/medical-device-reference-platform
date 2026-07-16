@@ -230,7 +230,14 @@ Verification engineering encompasses planning, execution, objective evidence, an
 | P3 – Connected Diagnostic Device       | **4** | ✅      |
 | P4 – Connected Wearable Health Monitor | **5** | ✅      |
 
+### C5 – Project Scope
 
+| Candidate                              | Score | Status |
+| -------------------------------------- | :---: | ------ |
+| P1 – Connected Physiological Monitor   | **5** | ✅      |
+| P2 – Connected Patient Monitor         | **4** | ✅      |
+| P3 – Connected Diagnostic Device       | **5** | ✅      |
+| P4 – Connected Wearable Health Monitor |   ⬜   |        |
 
 
 ---

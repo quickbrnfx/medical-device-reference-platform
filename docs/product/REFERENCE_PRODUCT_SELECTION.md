@@ -1,6 +1,5 @@
 # Reference Product Selection
 
-REFERENCE_PRODUCT_SELECTION.md
 
 | Section                | Status         |
 | ---------------------- | -------------- |

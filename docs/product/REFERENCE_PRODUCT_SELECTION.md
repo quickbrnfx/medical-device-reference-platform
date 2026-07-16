@@ -318,10 +318,83 @@ Engineering documentation should explain why decisions were made, not simply rec
 | P3 – Connected Diagnostic Device       | **4** | ✅      |
 | P4 – Connected Wearable Health Monitor | **4** | ✅      |
 
+---
 
+# Overall Findings
 
+## Purpose
+
+The purpose of this evaluation was not to identify the most technically complex product, but to identify the product that best supports the objectives of the Medical Device Reference Platform.
+
+The selected reference product should enable a complete engineering case study that demonstrates disciplined systems engineering, embedded systems engineering, product cybersecurity, human factors and usability, verification engineering, and engineering decision-making throughout the product lifecycle.
 
 ---
+
+## Engineering Breadth
+
+All four candidate products demonstrated meaningful engineering value.
+
+The Connected Physiological Monitor, Connected Patient Monitor, and Connected Wearable Health Monitor consistently provided broad opportunities to demonstrate systems engineering, product cybersecurity, human factors and usability, verification, and embedded systems engineering.
+
+The Connected Diagnostic Device also demonstrated strong engineering value, but generally within a narrower operational context.
+
+No candidate was eliminated because of insufficient engineering depth.
+
+---
+
+## Project Alignment
+
+The greatest differentiation between candidates occurred when evaluating alignment with the objectives of this project rather than intrinsic product complexity.
+
+Criteria such as **Project Scope** and **Engineering Case Study** emphasized the importance of producing a complete, coherent engineering narrative rather than maximizing implementation complexity.
+
+This reinforces one of the project's guiding principles:
+
+> Implementation exists to validate engineering decisions, not replace them.
+
+---
+
+## System Boundaries
+
+A recurring theme throughout the evaluation was the importance of defining a clear Version 1 system boundary.
+
+Products with naturally contained system boundaries were easier to envision as complete engineering case studies.
+
+Products with broader ecosystems remained strong candidates but required additional discipline to prevent unnecessary scope expansion.
+
+---
+
+## Engineering Narrative
+
+The evaluation demonstrated that the strongest reference product is not necessarily the one with the greatest technical complexity.
+
+Instead, the strongest candidate provides a balanced opportunity to demonstrate engineering decisions across multiple disciplines while maintaining a coherent and traceable engineering story from concept through verification.
+
+---
+
+## Trade-offs
+
+Each candidate emphasized different engineering strengths.
+
+| Candidate | Primary Strength |
+|-----------|------------------|
+| Connected Physiological Monitor | Balanced representation of the complete engineering lifecycle |
+| Connected Patient Monitor | Systems integration and complex clinical workflows |
+| Connected Diagnostic Device | Well-defined scope and focused engineering problem |
+| Connected Wearable Health Monitor | Modern connected embedded systems and mobile integration |
+
+No objectively superior product emerged from the evaluation. Instead, each candidate represented a different balance of engineering priorities.
+
+---
+
+## Summary
+
+The evaluation demonstrated that successful reference platforms are defined less by technical complexity than by their ability to communicate disciplined engineering.
+
+The Connected Physiological Monitor consistently provided the most balanced representation of the engineering disciplines identified in the Project Charter while remaining appropriately scoped for Version 1.
+
+These findings provide the basis for the recommendation presented in the following section.
+
 
 # Recommendation
 

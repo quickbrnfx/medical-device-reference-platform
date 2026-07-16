@@ -18,6 +18,7 @@ These artifacts capture engineering decisions, requirements, architecture, verif
 
 | Directory | Purpose |
 |-----------|---------|
+| `templates/` | Reusable templates for engineering documentation and project artifacts. |
 | `adr/` | Architecture Decision Records (ADRs) documenting significant engineering decisions. |
 | `architecture/` | System architecture, interfaces, and design artifacts. |
 | `product/` | Product definition, product evaluations, and reference product selection. |

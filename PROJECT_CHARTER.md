@@ -44,9 +44,17 @@ Many engineering portfolios emphasize implementation while overlooking the engin
 
 ---
 
-# Scope
+## Scope
 
-What is included?
+Version 1 of the Medical Device Reference Platform includes:
+
+- Development of a reference implementation used to demonstrate engineering practices for connected medical devices.
+- Documentation of the engineering process from concept through verification.
+- Systems engineering artifacts including requirements, architecture, and design rationale.
+- Embedded firmware sufficient to demonstrate and validate the engineering decisions documented throughout the project.
+- Product cybersecurity considerations integrated throughout the engineering lifecycle.
+- Human-centered design considerations where they influence engineering decisions.
+- Verification artifacts demonstrating traceability between requirements and evidence.
 
 ---
 

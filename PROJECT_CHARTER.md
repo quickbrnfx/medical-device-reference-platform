@@ -96,9 +96,19 @@ Version 1 of the project is considered successful when:
 
 ---
 
-# Guiding Principles
+## Guiding Principles
 
-The engineering philosophy.
+1. Engineering decisions should be documented with clear rationale.
+
+2. Security should be considered throughout the engineering process rather than added after implementation.
+
+3. Requirements should drive architecture, implementation, and verification.
+
+4. Every important engineering claim should be supported by evidence.
+
+5. Implementation exists to validate engineering decisions, not replace them.
+
+6. Prefer simple solutions unless additional complexity provides clear engineering value.
 
 ---
 

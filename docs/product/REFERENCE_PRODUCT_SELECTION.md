@@ -98,6 +98,7 @@ Lessons Learned
 | **3** | Requires basic product security considerations but security is not a primary architectural driver.                                                                                                        |
 | **2** | Requires only limited product security decisions.                                                                                                                                                         |
 | **1** | Product cybersecurity plays a minimal role in the engineering process.                                                                                                                                    |
+
 Observations
 
 - Cybersecurity is a first-order engineering concern for all connected medical device categories.
@@ -105,7 +106,6 @@ Observations
 - Diagnostic devices present a narrower cybersecurity problem than continuous monitoring products.
 
 Lessons Learned
-
 - Product cybersecurity is driven more by system interactions than by the sensing technology itself.
 - Separating cybersecurity from project scope helped produce more objective scores.
 

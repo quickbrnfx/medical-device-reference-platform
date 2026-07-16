@@ -213,6 +213,22 @@ The strongest reference products integrate embedded development with systems eng
 A well-defined embedded architecture provides greater educational and engineering value than highly optimized or feature-rich firmware.
 Implementation should continue to validate engineering decisions rather than become the primary focus of the project.
 
+### C7 – Engineering Case Study
+
+**Question**
+
+> How well does this product support demonstrating disciplined engineering from concept through verification in a way that aligns with the project's vision, mission, and guiding principles?
+
+| Score | Definition                                                                                                                                                                                                                                                      |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **5** | Naturally supports a complete and well-balanced demonstration of the engineering lifecycle, enabling strong traceability between decisions, requirements, architecture, implementation, verification, and product cybersecurity without unnecessary complexity. |
+| **4** | Supports most aspects of the engineering lifecycle but places greater emphasis on particular disciplines or requires careful explanation to maintain a balanced engineering narrative.                                                                          |
+| **3** | Demonstrates several engineering disciplines well but provides limited opportunities to illustrate the complete engineering lifecycle.                                                                                                                          |
+| **2** | Demonstrates isolated engineering concepts but does not naturally support a cohesive engineering case study.                                                                                                                                                    |
+| **1** | Provides limited value for demonstrating the engineering process defined by the Project Charter.                                                                                                                                                                |
+
+
+
 ---
 
 ## Candidate Products

@@ -10,14 +10,16 @@ Items should remain concise, actionable, and traceable to the project's engineer
 
 # Summary
 
-| ID     | Title                                       | Priority | Status  |
-| ------ | ------------------------------------------- | -------- | ------- |
-| RI-001 | Standardize Documentation Directory READMEs | Medium   | Backlog |
-| RI-002 | Create ADR Template                         | High     | Backlog |
-| RI-003 | Create Requirement Template                 | High     | Backlog |
-| RI-004 | Refine CURRENT_STATE.md                     | High     | Backlog |
-| RI-005 | Create DECISION_LOG.md                      | Medium   | Backlog |
-| RI-006 | Create `docs/README.md`                     | High     | Backlog |
+| ID     | Title                                       |  Status  |
+| ------ | ------------------------------------------- | :------: |
+| RI-001 | Standardize Documentation Directory READMEs |  Backlog |
+| RI-002 | Create ADR Template                         |  Backlog |
+| RI-003 | Create Requirement Template                 |  Backlog |
+| RI-004 | Refine CURRENT_STATE.md                     |  Backlog |
+| RI-005 | Create DECISION_LOG.md                      |  Backlog |
+| RI-006 | Create Engineering Documentation Index      | Complete |
+| RI-007 | Reorganize Root README                      |  Backlog |
+
 
 ---
 

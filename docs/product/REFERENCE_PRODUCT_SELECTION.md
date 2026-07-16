@@ -74,6 +74,12 @@ Weighted Score = Score × Weight
 | 2 | Minimal systems engineering required. |
 | 1 | Mostly implementation-focused with little systems engineering value. |
 
+### C2 – Product Cybersecurity
+
+**Question**
+
+> How rich is the cybersecurity engineering problem?
+
 | Candidate                              | Score | Status |
 | -------------------------------------- | :---: | ------ |
 | P1 – Connected Physiological Monitor   | **5** | ✅      |

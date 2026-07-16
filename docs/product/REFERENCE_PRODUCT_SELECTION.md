@@ -79,6 +79,7 @@ Observations
 - The Patient Monitor and Wearable Health Monitor both require substantial systems engineering, but for different reasons.
 - The Connected Diagnostic Device remains a strong candidate but generally has a narrower systems context.
 - All four candidates require meaningful systems engineering; none were eliminated by this criterion.
+
 Lessons Learned
 - Systems engineering value is driven by the interactions between subsystems rather than the complexity of any individual component.
 - It is important to evaluate systems engineering independently of project scope to avoid biasing the results.
@@ -97,6 +98,17 @@ Lessons Learned
 | **3** | Requires basic product security considerations but security is not a primary architectural driver.                                                                                                        |
 | **2** | Requires only limited product security decisions.                                                                                                                                                         |
 | **1** | Product cybersecurity plays a minimal role in the engineering process.                                                                                                                                    |
+Observations
+
+- Cybersecurity is a first-order engineering concern for all connected medical device categories.
+- Continuous connectivity generally increases the number of trust boundaries and security considerations.
+- Diagnostic devices present a narrower cybersecurity problem than continuous monitoring products.
+
+Lessons Learned
+
+- Product cybersecurity is driven more by system interactions than by the sensing technology itself.
+- Separating cybersecurity from project scope helped produce more objective scores.
+
 ---
 
 ## Candidate Products

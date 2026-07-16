@@ -1,23 +1,17 @@
-Milestone 0
-Project Charter
+Milestone 0 – Foundation
 
-Milestone 1
-Requirements
+Milestone 1 – Product Definition
 
-Milestone 2
-Architecture
+Milestone 2 – Requirements
 
-Milestone 3
-UX
+Milestone 3 – Architecture
 
-Milestone 4
-Security
+Milestone 4 – UX & Human Factors
 
-Milestone 5
-Implementation
+Milestone 5 – Product Security
 
-Milestone 6
-Verification
+Milestone 6 – Implementation
 
-Milestone 7
-Release
+Milestone 7 – Verification
+
+Milestone 8 – Release

@@ -264,6 +264,16 @@ Version 1 should optimize for demonstrating the engineering lifecycle rather tha
 | P3 – Connected Diagnostic Device       | **5** | ✅      |
 | P4 – Connected Wearable Health Monitor | **5** | ✅      |
 
+### C6 – Embedded Development
+
+| Candidate                              | Score | Status |
+| -------------------------------------- | :---: | ------ |
+| P1 – Connected Physiological Monitor   | **5** | ✅      |
+| P2 – Connected Patient Monitor         | **5** | ✅      |
+| P3 – Connected Diagnostic Device       | **4** | ✅      |
+| P4 – Connected Wearable Health Monitor | **5** | ✅      |
+
+
 
 ---
 

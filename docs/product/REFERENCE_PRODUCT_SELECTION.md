@@ -80,12 +80,13 @@ Weighted Score = Score × Weight
 
 # Candidate Products
 
-| ID | Candidate |
-|----|-----------|
-| P1 | Connected Physiological Monitor |
-| P2 | Connected Patient Monitor |
-| P3 | Connected Diagnostic Device |
-| P4 | Connected Wearable Health Monitor |
+| ID | Candidate                         | Representative Example                                                                           |
+| -- | --------------------------------- | ------------------------------------------------------------------------------------------------ |
+| P1 | Connected Physiological Monitor   | Multi-parameter vital signs monitor |
+| P2 | Connected Patient Monitor         | Bedside patient monitor |
+| P3 | Connected Diagnostic Device       | Point-of-care diagnostic analyzer      |
+| P4 | Connected Wearable Health Monitor | Wearable ECG or health monitoring patch      |
+
 
 ---
 

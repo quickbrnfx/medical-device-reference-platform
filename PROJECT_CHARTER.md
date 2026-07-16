@@ -76,13 +76,16 @@ Who benefits?
 
 ---
 
-# Success Criteria
+## Success Criteria
 
-A complete engineering lifecycle is documented.
-Every major architectural decision includes rationale.
-Security considerations influence requirements and architecture.
-Requirements are traceable to verification activities.
-The repository is understandable by an engineer joining the project for the first time.
+Version 1 of the project is considered successful when:
+
+- The engineering lifecycle is documented from concept through verification.
+- Engineering decisions and their rationale are traceable throughout the repository.
+- The reference implementation demonstrates the documented engineering decisions.
+- Product cybersecurity considerations are integrated throughout the engineering process rather than treated as a separate activity.
+- Verification artifacts provide evidence that key requirements have been satisfied.
+- An engineer unfamiliar with the project can understand why major engineering decisions were made by reading the repository.
 
 ---
 

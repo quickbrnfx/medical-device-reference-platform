@@ -149,6 +149,7 @@ Score Definitions
 | **3** | Requires meaningful verification but with limited system complexity or traceability needs.                                                                                                                  |
 | **2** | Verification is relatively straightforward and limited in scope.                                                                                                                                            |
 | **1** | Minimal verification planning or evidence is required.                                                                                                                                                      |
+
 Observations
 The Connected Physiological Monitor, Patient Monitor, and Wearable Health Monitor all provide excellent opportunities to demonstrate verification engineering across the full product lifecycle.
 The Connected Diagnostic Device remains a strong verification candidate but generally involves fewer continuously interacting subsystems and operational scenarios.

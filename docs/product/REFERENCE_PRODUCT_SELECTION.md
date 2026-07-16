@@ -201,7 +201,17 @@ Version 1 should optimize for demonstrating the engineering lifecycle rather tha
 | **3** | Supports moderate embedded development but limits opportunities to demonstrate broader embedded systems engineering concepts.                                                                                                             |
 | **2** | Embedded development is relatively limited or secondary to other engineering disciplines.                                                                                                                                                 |
 | **1** | Embedded development plays only a minor role in the product.                                                                                                                                                                              |
+Observations
+The Connected Physiological Monitor, Patient Monitor, and Wearable Health Monitor all provide excellent opportunities to demonstrate embedded systems engineering, each emphasizing different aspects of the discipline.
+The Connected Diagnostic Device remains a strong embedded platform but generally involves fewer real-time interactions and embedded subsystems.
+Embedded systems engineering extends beyond firmware implementation to include hardware/software interfaces, system architecture, diagnostics, lifecycle planning, and verification.
+Resource constraints and system interactions influence the nature of embedded engineering more than the physical size or complexity of the device.
 
+Lessons Learned
+Embedded systems engineering should be evaluated as an engineering discipline rather than by the volume of firmware or code complexity.
+The strongest reference products integrate embedded development with systems engineering, cybersecurity, verification, and human factors rather than treating firmware as an isolated activity.
+A well-defined embedded architecture provides greater educational and engineering value than highly optimized or feature-rich firmware.
+Implementation should continue to validate engineering decisions rather than become the primary focus of the project.
 
 ---
 

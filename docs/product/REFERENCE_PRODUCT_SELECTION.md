@@ -125,6 +125,20 @@ Score Definitions
 | **2** | Human interaction is relatively simple and requires minimal human factors analysis.                                                                                           |
 | **1** | Human factors have little influence on engineering decisions.                                                                                                                 |
 
+### C4 – Verification
+
+**Question**
+
+> How well does this product create opportunities to demonstrate verification engineering throughout the product lifecycle?
+
+Score Definitions
+| Score | Definition                                                                                                                                                                                                  |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **5** | Naturally requires comprehensive verification planning, traceability, unit/integration/system testing, verification against requirements, and objective evidence across multiple subsystems and interfaces. |
+| **4** | Requires substantial verification activities across several engineering disciplines but with fewer interacting systems or verification challenges.                                                          |
+| **3** | Requires meaningful verification but with limited system complexity or traceability needs.                                                                                                                  |
+| **2** | Verification is relatively straightforward and limited in scope.                                                                                                                                            |
+| **1** | Minimal verification planning or evidence is required.                                                                                                                                                      |
 
 ---
 

@@ -176,7 +176,17 @@ Verification engineering encompasses planning, execution, objective evidence, an
 | **2** | The product is unlikely to satisfy the Version 1 Definition of Done without major compromises or extended timelines.                                                                         |
 | **1** | The product is not a realistic fit for Version 1 and is likely to prevent completion of a coherent engineering case study.                                                                   |
 
+Observations
+The Connected Physiological Monitor and Connected Wearable Health Monitor provide broad engineering coverage while remaining well aligned with the intended Version 1 scope.
+The Connected Diagnostic Device offers the cleanest execution path because of its well-defined workflows and system boundaries.
+The Connected Patient Monitor remains achievable but introduces substantially more inherent complexity that must be actively managed.
+Clearly defining the system boundary has emerged as one of the strongest indicators of a product's suitability for Version 1.
 
+Lessons Learned
+Project scope should be evaluated against the project's Definition of Done, not the inherent complexity of the product.
+A more ambitious product does not necessarily produce a better engineering case study.
+Well-defined system boundaries reduce scope creep and improve the likelihood of completing a coherent engineering narrative.
+Version 1 should optimize for demonstrating the engineering lifecycle rather than maximizing feature count.
 
 ---
 
@@ -237,7 +247,7 @@ Verification engineering encompasses planning, execution, objective evidence, an
 | P1 – Connected Physiological Monitor   | **5** | ✅      |
 | P2 – Connected Patient Monitor         | **4** | ✅      |
 | P3 – Connected Diagnostic Device       | **5** | ✅      |
-| P4 – Connected Wearable Health Monitor |   ⬜   |        |
+| P4 – Connected Wearable Health Monitor | **5** | ✅      |
 
 
 ---

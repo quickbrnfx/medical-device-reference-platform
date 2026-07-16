@@ -34,7 +34,7 @@ Rather than focusing solely on implementation, this project documents the engine
 
 # Mission
 
-Demonstrate thoughtful engineering through transparent design decisions.
+Demonstrate a disciplined engineering process by documenting the decisions, tradeoffs, and evidence involved in developing modern connected medical devices.
 
 ---
 

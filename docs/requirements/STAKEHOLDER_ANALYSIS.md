@@ -27,8 +27,9 @@ This analysis establishes the foundation for user needs, system requirements, hu
 
 # Stakeholder Summary
 
-| Stakeholder | Category | Primary Interest |
-|-------------|----------|------------------|
+| Stakeholder | Category | Primary Interest | Interaction | Influence |
+| ----------- | -------- | ---------------- | ----------- | --------- |
+
 
 ---
 

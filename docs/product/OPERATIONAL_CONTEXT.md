@@ -131,8 +131,64 @@ Complete a monitoring session by reviewing collected information, preserving req
 - Secure data handling
 - Safe system shutdown
 
-## Use Conditions
-<next>
+# Use Conditions
+
+The Version 1 reference platform is intended to operate under the following representative use conditions. These conditions provide context for requirements development, system architecture, risk management, and verification planning.
+
+## Physical Conditions
+
+The system is intended for operation in indoor healthcare environments where environmental conditions are controlled. Users may interact with the system while standing, seated, or moving within a clinical workspace.
+
+Representative considerations include:
+
+- Indoor clinical environments
+- Routine handling during patient care
+- Continuous powered operation
+- Normal environmental lighting
+- Typical clinical noise levels
+
+---
+
+## Operational Conditions
+
+The system is expected to support continuous physiological monitoring throughout a patient monitoring session.
+
+Representative considerations include:
+
+- Initial device configuration
+- Continuous physiological data acquisition
+- Real-time data processing
+- Secure communication with external systems
+- Data storage and retrieval
+- Normal startup and shutdown procedures
+
+---
+
+## Human Conditions
+
+The system is intended to be used by trained clinical personnel with varying levels of experience and technical proficiency.
+
+Representative considerations include:
+
+- Time-sensitive clinical workflows
+- High cognitive workload
+- Potential interruptions during operation
+- Multiple concurrent patient responsibilities
+- Need for efficient and intuitive interaction
+
+---
+
+## Clinical Conditions
+
+The system supports routine physiological monitoring during patient assessment and clinical observation.
+
+Representative considerations include:
+
+- Stable patient monitoring
+- Changing physiological conditions
+- Abnormal physiological events
+- Alarm acknowledgement and response
+- Clinical decision support through physiological information
 
 ## External Systems
 

@@ -6,13 +6,12 @@
 
 # Intended Use Environment
 
-The Version 1 reference platform is intended for use in healthcare environments where physiological monitoring supports patient assessment, clinical research, and informed clinical decision-making.
+The Version 1 reference platform is intended for use in controlled healthcare environments where physiological monitoring supports patient assessment, clinical research, and informed clinical decision-making.
 
 Representative environments include:
 
 - Hospital inpatient units
 - Outpatient and ambulatory clinics
-- Emergency and urgent care settings
 - Clinical research environments
 
 Version 1 does not model the additional engineering considerations associated with:

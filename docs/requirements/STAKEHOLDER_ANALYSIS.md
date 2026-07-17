@@ -27,8 +27,22 @@ This analysis establishes the foundation for user needs, system requirements, hu
 
 # Stakeholder Summary
 
-| Stakeholder | Category | Primary Interest | Interaction | Influence |
-| ----------- | -------- | ---------------- | ----------- | --------- |
+| Stakeholder | Category | Primary Interest | Relation to System | Influence |
+|-------------|----------|------------------|-------------|-----------|
+| Patient | Patients | Safe, accurate physiological monitoring | Direct subject of monitoring | High |
+| Healthcare Provider | Users | Accurate clinical information | Direct use | High |
+| Clinical Operator | Operators | Efficient setup and operation | Direct operation | Medium |
+| Systems Engineer | Developers | Complete and traceable system definition | Development | High |
+| Embedded Software Engineer | Developers | Reliable firmware implementation | Development | Medium |
+| Hardware Engineer | Developers | Reliable hardware implementation | Development | Medium |
+| Human Factors Engineer | Developers | Safe and effective user interaction | Development | Medium |
+| Cybersecurity Engineer | Developers | Secure system architecture and data protection | Development | Medium |
+| Verification Engineer | Verification | Demonstrate requirements have been satisfied | Verification | High |
+| Validation Engineer | Validation | Demonstrate user needs have been met | Validation | High |
+| Manufacturing Engineer | Manufacturing | Efficient and repeatable production | Manufacturing | Medium |
+| Service Engineer | Service & Support | Maintain system reliability throughout its lifecycle | Service | Medium |
+| Quality Engineer | Regulatory & Quality | Ensure quality system compliance | Oversight | High |
+| Regulatory Affairs Specialist | Regulatory & Quality | Demonstrate regulatory compliance | Oversight | High |
 
 
 ---

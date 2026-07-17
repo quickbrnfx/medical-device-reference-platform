@@ -190,7 +190,18 @@ Representative considerations include:
 - Alarm acknowledgement and response
 - Clinical decision support through physiological information
 
-## External Systems
+# External Systems
+
+The Version 1 reference platform exchanges information with external systems that support physiological monitoring, clinical workflows, and data management. These systems define the operational boundary of the reference platform and provide context for future interface and cybersecurity requirements.
+
+| External System | Purpose |
+|-----------------|---------|
+| Physiological Sensors | Provide physiological measurements to the monitoring platform. |
+| Clinical Operator | Configures and operates the monitoring system during patient care. |
+| Healthcare Provider | Reviews physiological information to support patient assessment and clinical decision-making. |
+| Hospital Information Systems | Exchange patient and clinical information where applicable. |
+| Data Storage Systems | Store physiological data and session records for later retrieval. |
+| Network Infrastructure | Enables secure communication between system components and external systems. |
 
 ## Assumptions
 

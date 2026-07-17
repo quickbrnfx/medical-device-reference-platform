@@ -204,6 +204,15 @@ The Version 1 reference platform exchanges information with external systems tha
 
 ## Assumptions
 
+The operational context described in this document is based on the following assumptions:
+
+- The system is operated by trained clinical personnel.
+- Physiological sensors are correctly applied and functioning as intended.
+- The operating environment provides appropriate power and network infrastructure.
+- External information systems are available when required for data exchange.
+- Users follow established clinical workflows and organizational procedures.
+- Applicable regulatory, privacy, and cybersecurity requirements are addressed throughout the system lifecycle.
+
 ## Observations
 
 ## Lessons Learned

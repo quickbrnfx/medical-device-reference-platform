@@ -71,14 +71,15 @@ Requirements Engineering is complete when:
 
 # Work Packages
 
-| ID | Work Package | Status |
-|----|--------------|--------|
-| REQ-001 | Stakeholder Analysis | Pending |
-| REQ-002 | Stakeholder Personas | Pending |
-| REQ-003 | Operational Context | Pending |
-| REQ-004 | User Needs | Pending |
-| REQ-005 | System Requirements | Pending |
-| REQ-006 | Requirements Traceability Strategy | Pending |
+| ID      | Work Package              | Primary Artifact                |
+| ------- | ------------------------- | ------------------------------- |
+| REQ-001 | Stakeholder Analysis      | `STAKEHOLDER_ANALYSIS.md`       |
+| REQ-002 | Stakeholder Personas      | `STAKEHOLDER_PERSONAS.md`       |
+| REQ-003 | Operational Context       | `OPERATIONAL_CONTEXT.md`        |
+| REQ-004 | User Needs                | `USER_NEEDS.md`                 |
+| REQ-005 | Requirements Development  | `REQUIREMENTS_SPECIFICATION.md` |
+| REQ-006 | Requirements Traceability | `REQUIREMENTS_TRACEABILITY.md`  |
+
 
 ---
 

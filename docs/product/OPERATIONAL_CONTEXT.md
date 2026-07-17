@@ -215,4 +215,14 @@ The operational context described in this document is based on the following ass
 
 ## Observations
 
+- Operational context establishes the boundaries within which the reference platform is expected to operate.
+- Clearly defining representative environments and operational scenarios reduces ambiguity during requirements development.
+- Human, operational, and clinical considerations collectively influence system behavior and user interaction.
+- Operational context provides the foundation for deriving user needs, system requirements, and verification activities.
+
 ## Lessons Learned
+
+- Clearly defining operational boundaries early helps prevent unnecessary expansion of project scope.
+- Representative operational scenarios provide a common reference for multiple engineering disciplines.
+- Separating operational context from requirements improves traceability and reduces documentation overlap.
+- Operational context should describe the environment in which the system operates rather than prescribe implementation decisions.

@@ -10,14 +10,16 @@ This analysis establishes the foundation for user needs, system requirements, hu
 
 # Stakeholder Categories
 
-- Users
-- Operators
-- Developers
-- Verification Engineers
-- Regulatory Stakeholders
-- Manufacturing
-- Service & Support
-- External Systems
+| Category                      | Purpose                                                                                                  |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Users**                     | Individuals who directly interact with the device to accomplish its intended use.                        |
+| **Operators**                 | Personnel responsible for configuring, operating, or monitoring the system in its intended environment.  |
+| **Patients**                  | Individuals whose physiological data is measured or whose care is supported by the device.               |
+| **Developers**                | Engineers responsible for designing, implementing, and maintaining the platform.                         |
+| **Verification & Validation** | Engineers responsible for demonstrating that requirements have been correctly implemented and validated. |
+| **Manufacturing**             | Personnel responsible for assembly, production, calibration, and release.                                |
+| **Service & Support**         | Personnel responsible for installation, maintenance, troubleshooting, and lifecycle support.             |
+| **Regulatory & Quality**      | Individuals or organizations responsible for compliance, quality management, and regulatory oversight.   |
 
 ---
 

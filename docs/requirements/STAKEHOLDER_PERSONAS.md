@@ -4,35 +4,50 @@
 
 ---
 
-# Objective
+## Objective
 
-Develop concise, engineering-focused personas that capture the responsibilities, goals, constraints, and engineering implications of key stakeholders.
+Develop engineering-focused personas that represent the primary operational stakeholders interacting with the reference platform.
 
-These personas provide context for user needs and support requirements development while remaining grounded in the intended use of the reference platform.
+These personas provide context for user needs and support requirements development by identifying the responsibilities, goals, constraints, and engineering considerations of the system's primary users.
 
 ---
 
 # Persona Summary
 
-| Persona | Stakeholder | Purpose |
-|----------|-------------|---------|
-| Clinical Care Provider | Healthcare Provider | Uses physiological data to support patient care. |
-| Clinical Operator | Clinical Operator | Configures and operates the monitoring system. |
-| Patient | Patient | Receives monitoring while expecting safe, reliable operation. |
+| ID           | Persona             | Stakeholder         | Purpose                                                                                             |
+| ------------ | ------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
+| **STKP-001** | Patient             | Patient             | Receives physiological monitoring while expecting safe, reliable, and secure operation.             |
+| **STKP-002** | Clinical Operator   | Clinical Operator   | Configures, initiates, and operates the monitoring system.                                          |
+| **STKP-003** | Healthcare Provider | Healthcare Provider | Uses physiological information to support patient assessment and informed clinical decision-making. |
 
 ---
 
 # Personas
 
-## Clinical Care Provider
+## STKP-003 — Healthcare Provider
 
-| Attribute | Description |
-|-----------|-------------|
-| Stakeholder | Healthcare Provider |
-| Responsibilities | Review physiological data, assess patient status, and make clinical decisions. |
-| Goals | Access timely, accurate, and trustworthy patient information. |
-| Constraints | Time-critical environment, multiple patients, interruptions. |
-| Engineering Implications | Drives requirements for usability, data presentation, alarm management, and system reliability. |
+### Responsibilities
+
+Review physiological data, assess patient status, and make clinical decisions.
+
+### Goals
+
+Access timely, accurate, and trustworthy patient information.
+
+### Constraints
+
+- Time-critical environment
+- Multiple patients
+- Frequent interruptions
+
+### Engineering Implications
+
+Drives requirements for:
+
+- Data presentation
+- Usability
+- Alarm management
+- System reliability
 
 ---
 

@@ -12,12 +12,24 @@ User needs describe the outcomes stakeholders require from the system without pr
 
 ---
 
-# User Needs Summary
+## User Need Derivation
 
-| ID | Stakeholder | User Need | Rationale | Priority |
-|----|-------------|-----------|-----------|----------|
-| UN-001 | Healthcare Provider | View current physiological measurements quickly and accurately. | Supports timely clinical decision-making. | High |
-| UN-002 | Patient | Receive safe and reliable physiological monitoring. | Protects patient safety throughout intended use. | High |
+User needs were derived by evaluating the interactions between the primary stakeholder personas and the representative operational scenarios defined in the Operational Context.
+
+The following persona–scenario relationships were identified:
+
+| Persona | OPS-001 | OPS-002 | OPS-003 | OPS-004 | OPS-005 |
+|----------|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Patient | ✓ | ✓ | | ✓ | |
+| Clinical Operator | ✓ | | | ✓ | ✓ |
+| Healthcare Provider | | ✓ | ✓ | ✓ | ✓ |
+
+---
+
+## User Needs Summary
+
+| ID | Persona | Operational Scenario | User Need | Rationale | Priority |
+|----|---------|----------------------|-----------|-----------|----------|
 
 ---
 

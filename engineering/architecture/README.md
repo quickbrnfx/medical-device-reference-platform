@@ -6,7 +6,7 @@ System Architecture organizes the responsibilities defined by System Requirement
 
 Rather than specifying implementation details, architecture defines system elements, allocates responsibilities, and establishes the relationships between them.
 
-Architecture serves as the structural foundation of the system, organizing requirements into a coherent design while integrating constraints and decisions from cross-cutting engineering disciplines.
+Architecture serves as the structural foundation that organizes engineering information into a coherent system design capable of satisfying product requirements.
 
 ---
 

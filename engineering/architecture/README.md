@@ -60,19 +60,26 @@ System Requirements define **what** the system must accomplish.
 Architecture organizes those requirements into a solution that can be implemented and verified.
 
 ```text
-User Needs
-      │
-      ▼
-System Requirements
-      │
-      ▼
-      Architecture
-    ╱         │      ╲
-   ▼          ▼       ▼
-Risk   Cybersecurity  Human Factors
-            │
-            ▼
-      Implementation
+                  Product Definition
+                         │
+                         ▼
+                 System Requirements
+                         │
+                         ▼
+                 System Architecture
+                  ▲      │      ▲
+                  │      │      │
+             Risk │      │      │ Human Factors
+                  │      │      │
+                  └──────┼──────┘
+                         │
+                  Cybersecurity
+                         │
+                         ▼
+                 Implementation
+                         │
+                         ▼
+                  Verification
 ```
 
 Architecture should remain traceable to the requirements it satisfies.

@@ -66,10 +66,13 @@ User Needs
 System Requirements
       │
       ▼
-Architecture
-      │
-      ▼
-Implementation
+      Architecture
+    ╱         │      ╲
+   ▼          ▼       ▼
+Risk   Cybersecurity  Human Factors
+            │
+            ▼
+      Implementation
 ```
 
 Architecture should remain traceable to the requirements it satisfies.

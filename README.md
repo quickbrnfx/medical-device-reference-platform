@@ -1,60 +1,121 @@
-# Medical Device Reference Platform
+# Medical Device Engineering Reference
 
-> An open engineering case study exploring how modern connected medical devices are engineered.
+> An open reference for modern medical device systems engineering.
 
----
+This repository demonstrates how medical devices are engineered—from stakeholder needs and system requirements to architecture, risk management, cybersecurity, implementation, and verification.
 
-## Vision
-
-This project demonstrates how systems engineering, embedded software, cybersecurity, human factors, and verification engineering work together throughout the development lifecycle of a connected medical device.
-
-The emphasis is not only on implementation, but on documenting engineering decisions.
+Rather than focusing on a single product, this repository provides reusable engineering frameworks alongside complete reference platforms that show how those frameworks are applied in practice.
 
 ---
 
-## Objectives
+# Purpose
 
-- Explore systems engineering practices
-- Demonstrate secure-by-design principles
-- Apply human-centered design
-- Develop embedded firmware
-- Verify engineering decisions through testing
+Modern medical devices are the result of thousands of engineering decisions spanning systems engineering, software, hardware, cybersecurity, human factors, quality, and verification.
 
----
+While many projects showcase the final implementation, few document the engineering reasoning that connects an identified user need to a verified system.
 
-## Current Status
-
-Milestone 0 — Project Charter
+The goal of this repository is to make that engineering process visible.
 
 ---
 
-## Repository Roadmap
+# Repository Organization
 
-- Project Charter
-- Requirements
-- Architecture
-- UX
-- Security
-- Embedded Platform
-- Verification
+The repository is organized into two complementary areas.
 
----
-## Artifact Identification
+## Engineering
 
-To support traceability throughout the engineering lifecycle, major engineering artifacts use standardized identifiers.
+The **Engineering** section contains reusable engineering knowledge, methodologies, and templates that can be applied across many types of medical devices.
 
-| Prefix | Artifact |
-|---------|----------|
-| STKP | Stakeholder Personas |
-| OPS | Operational Scenarios |
-| UN | User Needs |
-| SR | System Requirements |
-| VER | Verification Cases |
-| ADR | Architecture Decision Records |
+Topics include:
 
-Identifiers provide stable references between engineering artifacts and support requirements traceability throughout the reference platform.
+- Product Definition
+- Requirements Engineering
+- System Architecture
+- Risk Management
+- Medical Device Cybersecurity
+- Human Factors Engineering
+- Verification & Validation
 
 ---
-## License
 
-MIT
+## Reference Platforms
+
+Reference platforms demonstrate how the engineering framework is applied to complete medical device systems.
+
+Current platforms:
+
+| Platform | Status |
+|----------|--------|
+| Connected Physiological Monitor | 🚧 In Progress |
+
+Future platforms may include additional medical devices such as infusion systems, wearable devices, implantable systems, or other connected healthcare technologies.
+
+---
+
+# Engineering Philosophy
+
+This repository is built around a simple principle:
+
+> Every engineering artifact should answer one engineering question.
+
+Examples include:
+
+| Engineering Area | Question |
+|------------------|----------|
+| Product Definition | Why are we building this system? |
+| Requirements | What must the system do? |
+| Architecture | How are system responsibilities allocated? |
+| Quality Engineering | What constraints govern the system? |
+| Verification | How do we demonstrate the system satisfies its requirements? |
+
+This philosophy promotes clear documentation, objective traceability, and maintainable engineering artifacts.
+
+---
+
+# Engineering Traceability
+
+Engineering artifacts are developed with end-to-end traceability.
+
+```text
+Stakeholders
+      │
+      ▼
+User Needs
+      │
+      ▼
+System Requirements
+      │
+      ▼
+Architecture
+      │
+      ▼
+Implementation
+      │
+      ▼
+Verification
+```
+
+Each artifact exists to support the engineering decisions that follow.
+
+---
+
+# Repository Roadmap
+
+The repository will continue to expand in two directions:
+
+- Additional engineering methodologies and reusable guidance
+- Additional reference platforms demonstrating different medical device systems
+
+---
+
+# Contributing
+
+This repository is intended to serve as an educational and professional engineering reference.
+
+Feedback, discussion, and contributions that improve technical accuracy or engineering quality are welcome.
+
+---
+
+# License
+
+TBD

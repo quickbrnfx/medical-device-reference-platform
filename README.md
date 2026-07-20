@@ -39,7 +39,22 @@ Milestone 0 — Project Charter
 - Verification
 
 ---
+## Artifact Identification
 
+To support traceability throughout the engineering lifecycle, major engineering artifacts use standardized identifiers.
+
+| Prefix | Artifact |
+|---------|----------|
+| STKP | Stakeholder Personas |
+| OPS | Operational Scenarios |
+| UN | User Needs |
+| SR | System Requirements |
+| VER | Verification Cases |
+| ADR | Architecture Decision Records |
+
+Identifiers provide stable references between engineering artifacts and support requirements traceability throughout the reference platform.
+
+---
 ## License
 
 MIT

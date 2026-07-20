@@ -42,24 +42,27 @@ The following persona–scenario relationships were identified:
 
 ## User Needs Summary
 
-| ID         | Persona                        | User Need                                                                                                           |
-| ---------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| **UN-001** | STKP-001 – Patient             | The patient needs physiological monitoring to support their care.                                                   |
-| **UN-002** | STKP-001 – Patient             | The patient needs their physiological information to remain protected throughout monitoring.                        |
-| **UN-003** | STKP-001 – Patient             | The patient needs clinically significant changes in their physiological condition to be recognized.                 |
-| **UN-004** | STKP-001 – Patient             | The patient needs monitoring to be performed without compromising their safety.                                     |
-| **UN-005** | STKP-002 – Clinical Operator   | The clinical operator needs to establish physiological monitoring for a patient.                                    |
-| **UN-006** | STKP-002 – Clinical Operator   | The clinical operator needs to monitor a patient's physiological condition.                                         |
-| **UN-007** | STKP-002 – Clinical Operator   | The clinical operator needs to respond to abnormal conditions affecting patient monitoring.                         |
-| **UN-008** | STKP-002 – Clinical Operator   | The clinical operator needs to conclude a patient monitoring session.                                               |
-| **UN-009** | STKP-003 – Healthcare Provider | The healthcare provider needs physiological information to assess the patient's condition.                          |
-| **UN-010** | STKP-003 – Healthcare Provider | The healthcare provider needs to recognize clinically significant changes in the patient's physiological condition. |
-| **UN-011** | STKP-003 – Healthcare Provider | The healthcare provider needs completed monitoring information to support continuity of care.                       |
+| ID         | User Need                                                                                                           |  Priority  | Reasoning                                                                          |
+| ---------- | ------------------------------------------------------------------------------------------------------------------- | :--------: | ---------------------------------------------------------------------------------- |
+| **UN-001** | The patient needs physiological monitoring to support their care.                                                   |  **High**  | The primary purpose of the system.                                                 |
+| **UN-002** | The patient needs their physiological information to remain protected throughout monitoring.                        |  **High**  | Security and privacy are fundamental stakeholder expectations for medical devices. |
+| **UN-003** | The patient needs clinically significant changes in their physiological condition to be identified.                 |  **High**  | A core objective of physiological monitoring.                                      |
+| **UN-004** | The patient needs monitoring to be performed without compromising their safety.                                     |  **High**  | Safety is foundational to the intended use.                                        |
+| **UN-005** | The clinical operator needs to establish physiological monitoring for a patient.                                    |  **High**  | Monitoring cannot occur without successful setup.                                  |
+| **UN-006** | The clinical operator needs to monitor a patient's physiological condition.                                         |  **High**  | A primary operational goal.                                                        |
+| **UN-007** | The clinical operator needs to respond to abnormal conditions affecting patient monitoring.                         |  **High**  | Necessary to maintain safe and effective monitoring.                               |
+| **UN-008** | The clinical operator needs to conclude a patient monitoring session.                                               | **Medium** | Important, but occurs after monitoring has been completed.                         |
+| **UN-009** | The healthcare provider needs physiological information to assess the patient's condition.                          |  **High**  | Central to clinical decision-making.                                               |
+| **UN-010** | The healthcare provider needs to recognize clinically significant changes in the patient's physiological condition. |  **High**  | One of the primary reasons for monitoring.                                         |
+| **UN-011** | The healthcare provider needs completed monitoring information to support continuity of care.                       | **Medium** | Important for ongoing care, but not required to perform active monitoring.         |
+
 
 
 ---
 
 # Priority Definitions
+
+User need priorities indicate the relative importance of satisfying each stakeholder goal to achieve the intended use of the reference platform.
 
 | Priority | Description |
 |----------|-------------|

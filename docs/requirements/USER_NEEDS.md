@@ -85,3 +85,6 @@ User need priorities indicate the relative importance of satisfying each stakeho
 - Separating stakeholder goals from operational tasks produces more stable and reusable user needs.
 - Deferring implementation details to system requirements improves traceability and verification.
 - Deriving user needs from both stakeholder personas and operational scenarios provides a stronger engineering rationale than considering either artifact independently.
+- Stakeholder goals provide a more stable foundation for requirements than operational tasks.
+- Separating stakeholder goals from implementation details improves traceability throughout the engineering lifecycle.
+- User needs should remain solution-independent so they can be satisfied by multiple system designs.

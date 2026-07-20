@@ -1,6 +1,8 @@
 # Engineering Framework
 
-**Status:** Draft
+**Status:** Approved
+
+**Version:** 1.1
 
 ---
 
@@ -10,7 +12,7 @@ The Engineering Framework defines the core engineering disciplines that comprise
 
 Each discipline answers a unique engineering question, consumes information produced by other disciplines, and produces engineering artifacts that support subsequent engineering activities.
 
-Together, these disciplines form a traceable engineering framework that transforms stakeholder needs into verified engineering evidence.
+Together, these disciplines establish a traceable engineering framework that transforms stakeholder needs into verified engineering evidence.
 
 ---
 
@@ -38,11 +40,13 @@ These documents are complementary.
 | Cybersecurity | How do we protect the system and its data? |
 | Human Factors | How can users safely and effectively interact with the system? |
 | Verification | Did we build the system correctly? |
-| Quality | How do we evaluate and improve the engineering process and resulting product? |
+| Quality | How do we ensure the engineering process consistently produces products that satisfy their intended requirements? |
 
 ---
 
-# Information Flow
+# Primary Engineering Flow
+
+The primary engineering flow represents the progression of engineering information throughout product development.
 
 ```text
 Project Charter
@@ -55,25 +59,39 @@ Requirements
         │
         ▼
 Architecture
-       ╱│╲
-      ╱ │ ╲
-     ▼  ▼  ▼
- Risk HF Cybersecurity
-     ╲  │  ╱
-      ╲ │ ╱
-       ▼
+        │
+        ▼
+Implementation
+        │
+        ▼
 Verification
-       │
-       ▼
+        │
+        ▼
 Objective Evidence
-       │
-       ▼
-Quality
 ```
 
 Engineering is iterative.
 
-Information produced by downstream disciplines may require refinement of upstream engineering artifacts through formal engineering change.
+Information produced by downstream activities may require refinement of upstream engineering artifacts through formal engineering change.
+
+---
+
+# Cross-Cutting Engineering Disciplines
+
+Several engineering disciplines continuously influence the primary engineering flow rather than occurring at a single point within it.
+
+```text
+                 Quality
+                    │
+                    │
+Requirements ───────────────┐
+Architecture ───────────────┼────► Verification
+Risk ───────────────────────┤
+Cybersecurity ──────────────┤
+Human Factors ──────────────┘
+```
+
+These disciplines contribute engineering requirements, architectural constraints, risk controls, usability considerations, and verification objectives throughout system development.
 
 ---
 
@@ -88,14 +106,15 @@ Information produced by downstream disciplines may require refinement of upstrea
 **Primary Inputs**
 
 - Project Charter
-- Stakeholders
+- Stakeholder Identification
 - Intended Use
 
 **Primary Outputs**
 
-- Operational Context
-- User Needs
 - Product Definition
+- Operational Context
+- Operational Scenarios
+- User Needs
 
 ---
 
@@ -107,14 +126,13 @@ Information produced by downstream disciplines may require refinement of upstrea
 
 **Primary Inputs**
 
-- User Needs
-- Operational Context
+- Product Definition
 - Engineering Decisions
 
 **Primary Outputs**
 
 - System Requirements
-- Traceability
+- Requirements Traceability
 
 ---
 
@@ -145,9 +163,9 @@ Information produced by downstream disciplines may require refinement of upstrea
 
 **Primary Inputs**
 
+- Product Definition
 - Requirements
 - Architecture
-- Operational Context
 
 **Primary Outputs**
 
@@ -209,6 +227,7 @@ Information produced by downstream disciplines may require refinement of upstrea
 - Architecture
 - Risk Controls
 - Security Requirements
+- Human Factors Requirements
 
 **Primary Outputs**
 
@@ -222,29 +241,39 @@ Information produced by downstream disciplines may require refinement of upstrea
 
 **Engineering Question**
 
-> How do we evaluate and improve the engineering process and resulting product?
+> How do we ensure the engineering process consistently produces products that satisfy their intended requirements?
 
 **Primary Inputs**
 
-- All Engineering Disciplines
+- Engineering Artifacts
+- Engineering Decisions
+- Verification Evidence
+- Engineering Reviews
 
 **Primary Outputs**
 
+- Engineering Reviews
 - Quality Assessments
-- Process Improvement
+- Process Improvements
 - Engineering Confidence
+
+Quality is a cross-cutting engineering discipline that evaluates both engineering process and engineering outputs throughout the product lifecycle.
 
 ---
 
 # Engineering Principles
 
-Each engineering discipline exists to answer a unique engineering question.
+Every engineering discipline exists to answer a unique engineering question.
 
-Disciplines exchange engineering information through traceable artifacts rather than informal knowledge.
+Engineering disciplines exchange information through traceable engineering artifacts.
 
-No discipline operates independently; engineering decisions made within one discipline frequently influence others.
+Engineering decisions should precede implementation whenever practical.
 
-The framework is iterative and supports continual refinement through objective engineering evidence.
+Verification produces objective evidence demonstrating that approved engineering requirements have been satisfied.
+
+Quality provides confidence that engineering activities are consistently performed and that the resulting engineering outputs support safe, effective, and maintainable products.
+
+The Engineering Framework is iterative. Information generated by downstream disciplines may require refinement of upstream engineering artifacts through formal engineering change.
 
 ---
 

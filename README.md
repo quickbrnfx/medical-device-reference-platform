@@ -118,4 +118,4 @@ Feedback, discussion, and contributions that improve technical accuracy or engin
 
 # License
 
-TBD
+MIT

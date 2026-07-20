@@ -28,8 +28,19 @@ The following persona–scenario relationships were identified:
 
 ## User Needs Summary
 
-| ID | Persona | Operational Scenario | User Need | Rationale | Priority |
-|----|---------|----------------------|-----------|-----------|----------|
+| ID         | Persona                          | Operational Scenario                                | User Need                                                                                                   | Rationale                                                                    | Priority |
+| ---------- | -------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | :------: |
+| **UN-007** | **STKP-002 – Clinical Operator** | **OPS-001 – Patient Setup & Device Initialization** | The clinical operator needs to efficiently configure the monitoring system for a new patient.               | Supports efficient workflow and reduces the potential for setup errors.      |   High   |
+| **UN-008** | **STKP-002 – Clinical Operator** | **OPS-001 – Patient Setup & Device Initialization** | The clinical operator needs to associate the correct patient with the monitoring session.                   | Supports accurate patient identification and data association.               |   High   |
+| **UN-009** | **STKP-002 – Clinical Operator** | **OPS-001 – Patient Setup & Device Initialization** | The clinical operator needs to determine that the monitoring system is ready for patient use.               | Supports safe initiation of physiological monitoring.                        |   High   |
+| **UN-010** | **STKP-002 – Clinical Operator** | **OPS-001 – Patient Setup & Device Initialization** | The clinical operator needs to identify setup problems before monitoring begins.                            | Reduces the likelihood of monitoring interruptions and configuration errors. |   High   |
+| **UN-011** | **STKP-002 – Clinical Operator** | **OPS-004 – Abnormal Condition Response**           | The clinical operator needs to recognize system faults during monitoring.                                   | Supports timely response to abnormal operating conditions.                   |   High   |
+| **UN-012** | **STKP-002 – Clinical Operator** | **OPS-004 – Abnormal Condition Response**           | The clinical operator needs to understand appropriate corrective actions when faults occur.                 | Supports safe and effective resolution of abnormal operating conditions.     |   High   |
+| **UN-013** | **STKP-002 – Clinical Operator** | **OPS-004 – Abnormal Condition Response**           | The clinical operator needs to safely continue or discontinue monitoring following a system fault.          | Supports patient safety during abnormal operating conditions.                |   High   |
+| **UN-014** | **STKP-002 – Clinical Operator** | **OPS-005 – Data Review & Session Completion**      | The clinical operator needs to complete a patient monitoring session in a consistent and controlled manner. | Supports consistent completion of patient monitoring activities.             |  Medium  |
+| **UN-015** | **STKP-002 – Clinical Operator** | **OPS-005 – Data Review & Session Completion**      | The clinical operator needs confidence that monitoring data has been preserved before ending the session.   | Supports data availability for future clinical review.                       |   High   |
+| **UN-016** | **STKP-002 – Clinical Operator** | **OPS-005 – Data Review & Session Completion**      | The clinical operator needs to efficiently prepare the monitoring system for subsequent patient use.        | Supports efficient transition between monitoring sessions.                   |  Medium  |
+
 
 ---
 

@@ -8,7 +8,7 @@
 
 The Engineering Decision Log serves as the authoritative index of significant engineering decisions made throughout the Medical Device Engineering Reference repository.
 
-Each accepted decision is recorded once and linked to the supporting engineering analysis, resulting Architecture Decision Record (ADR), and affected engineering outputs.
+Each accepted decision is recorded once and linked to its supporting Trade Study (if applicable), resulting Architecture Decision Record (ADR), and affected engineering outputs.
 
 The Decision Log provides traceability between engineering questions, engineering analyses, architectural decisions, and downstream engineering work.
 
@@ -27,8 +27,8 @@ Significant engineering decisions should be supported by documented analysis bef
 
 Where appropriate:
 
-- **Decision Analyses (DAs)** evaluate engineering alternatives and trade-offs.
-- **Architecture Decision Records (ADRs)** document the accepted engineering decision and establish the engineering baseline.
+- **Trade Studies (TSs)** evaluate engineering alternatives and document trade-offs.
+- **Architecture Decision Records (ADRs)** record accepted engineering decisions and establish the engineering baseline.
 
 ---
 
@@ -38,7 +38,7 @@ Where appropriate:
 Engineering Question
         │
         ▼
-Decision Analysis (Optional)
+Trade Study (Optional)
         │
         ▼
 Architecture Decision Record
@@ -50,17 +50,17 @@ Engineering Outputs
 Verification
 ```
 
-Not every engineering decision requires a formal Decision Analysis.
+Not every engineering decision requires a Trade Study.
 
-Routine decisions may be documented directly using an Architecture Decision Record when additional analysis is unnecessary.
+Routine engineering decisions may be documented directly using an Architecture Decision Record when additional analysis is unnecessary.
 
 ---
 
 # Decision Register
 
-| ID | Decision | Status | Analysis | ADR | Affects |
-|----|----------|--------|----------|-----|---------|
-| DEC-001 | Select Version 1 Reference Platform | Accepted | DA-001 | ADR-001 | Product Definition, Requirements Engineering, System Architecture, Verification |
+| ID | Decision | Status | Trade Study | ADR | Affects |
+|----|----------|--------|-------------|-----|---------|
+| DEC-001 | Select Version 1 Reference Platform | Accepted | TS-001 | ADR-001 | Product Definition, Requirements Engineering, System Architecture, Verification |
 
 ---
 
@@ -79,10 +79,10 @@ The following status values are used throughout the repository.
 
 # Creating New Decisions
 
-Create a **Decision Analysis (DA)** when:
+Create a **Trade Study (TS)** when:
 
 - Multiple viable alternatives exist.
-- Trade-offs require objective evaluation.
+- Engineering trade-offs require objective evaluation.
 - The decision has significant technical or architectural impact.
 - Future contributors would benefit from understanding the engineering rationale.
 
@@ -101,7 +101,7 @@ Every accepted engineering decision should be recorded in the Decision Register.
 Engineering decisions should maintain traceability to:
 
 - Engineering Question
-- Supporting Decision Analysis (if applicable)
+- Supporting Trade Study (if applicable)
 - Architecture Decision Record
 - Affected Engineering Outputs
 - Verification Activities

@@ -63,7 +63,7 @@ Version 1 of the Medical Device Reference Platform includes:
 
 ## Engineering Philosophy
 
-The Connected Physiological Monitor emphasizes deliberate engineering tradeoffs over feature completeness.
+The platforms emphasize deliberate engineering tradeoffs over feature completeness.
 
 Capabilities may be intentionally deferred when they introduce disproportionate complexity relative to the educational objectives of the reference platform.
 

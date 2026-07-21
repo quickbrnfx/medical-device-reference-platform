@@ -94,6 +94,7 @@ A Monitoring Session is established.
 - Acquire Physiological Measurements
 - Determine Measurement Availability
 - Process Physiological Measurements
+- Provide Physiological Information
 
 ---
 
@@ -115,13 +116,16 @@ Physiological Measurement Acquisition begins
 Measurement           Physiological
 Availability          Measurement
 Determination         Processing
+       └────────────┬────────────┘
+                    ▼
+     Provide Physiological Information
 ```
 
 ---
 
 ### Observable Outcome
 
-Processed physiological measurements become available for downstream system functions.
+Physiological information becomes available for downstream system functions.
 
 ---
 
@@ -132,6 +136,7 @@ Processed physiological measurements become available for downstream system func
 - Physiological Measurement Acquisition depends upon the active Monitoring Configuration.
 - Measurement Availability and Physiological Measurement Processing both depend upon acquired physiological measurements.
 - Behavioral ordering represents engineering dependencies and does not imply software execution order.
+- Provide Physiological Information depends upon both Physiological Measurement Availability and Physiological Measurement Processing.
 
 ---
 

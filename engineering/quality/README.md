@@ -18,6 +18,28 @@ Engineering Quality provides a structured approach for making design decisions, 
 
 ---
 
+## Engineering Confidence
+
+The objective of Engineering Quality is to establish engineering confidence.
+
+Engineering confidence is the justified belief that engineering information is sufficiently complete, consistent, traceable, and supported by objective evidence to enable downstream engineering decisions.
+
+The artifacts within this directory collectively contribute to building and maintaining engineering confidence throughout the system lifecycle.
+
+```text
+                Engineering Quality
+                        │
+                        ▼
+            Engineering Confidence
+                        │
+      ┌─────────┼─────────┬─────────┐
+      ▼         ▼         ▼         ▼
+ Quality    Tradeoffs    Risk    Lifecycle
+Attributes              Informed  Quality
+```
+
+---
+
 ## Core Concepts
 
 Engineering Quality within this repository is based on several fundamental concepts.
@@ -67,6 +89,6 @@ Verification produces objective evidence that requirements have been satisfied.
 
 Engineering Quality helps determine which characteristics are important to evaluate and maintain throughout the system lifecycle.
 
-Verification demonstrates compliance.
+Verification produces objective evidence that engineering requirements have been satisfied.
 
-Quality evaluates engineering excellence.
+Engineering Quality establishes confidence that engineering information, engineering decisions, and engineering processes remain suitable to support safe, effective, and maintainable products throughout their lifecycle.

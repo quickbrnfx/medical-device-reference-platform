@@ -668,21 +668,103 @@ The requirements in this capability area define how the Connected Physiological 
 
 ---
 
-## CA-004 — Physiological Data Acquisition
+# CA-004 — Physiological Data Acquisition
 
-| Requirement | Status |
-|------------|--------|
-| SR-004 – Acquire physiological measurements | Draft |
-| SR-005 – Detect sensor communication loss | Draft |
-| SR-006 – Identify unavailable measurements | Draft |
+**Purpose**
 
-### Review Questions
+Acquire physiological measurements from configured physiological sensors during an active monitoring session.
 
-- Is acquisition continuous?
-- Is partial acquisition permitted?
-- What occurs following sensor reconnection?
-- Can acquisition continue if only a subset of sensors is available?
-- What conditions suspend acquisition?
+The requirements in this capability area define how the Connected Physiological Monitor acquires physiological measurements from configured physiological sensors for use by downstream system functions.
+
+---
+
+## Functional Requirements
+
+### SR-048
+
+**Requirement**
+
+> The system shall acquire physiological measurements only while in the Monitoring state.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-049
+
+**Requirement**
+
+> The system shall acquire physiological measurements from configured physiological sensors.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-003 Monitoring Configuration
+
+---
+
+### SR-050
+
+**Requirement**
+
+> The system shall detect interruption of physiological measurement acquisition from a configured physiological sensor.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-051
+
+**Requirement**
+
+> The system shall detect restoration of physiological measurement acquisition from a configured physiological sensor.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-052
+
+**Requirement**
+
+> The system shall continue acquiring physiological measurements from available configured physiological sensors following interruption of physiological measurement acquisition from another configured physiological sensor.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+## Review Status
+
+**Status:** Baseline Approved
 
 ---
 

@@ -8,7 +8,7 @@
 
 The Engineering Decision Log serves as the authoritative index of significant engineering decisions made throughout the Medical Device Engineering Reference repository.
 
-Each decision is recorded once and linked to its supporting analysis and resulting engineering artifacts.
+Each accepted decision is recorded once and linked to the supporting engineering analysis, resulting Architecture Decision Record (ADR), and affected engineering outputs.
 
 The Decision Log provides traceability between engineering questions, engineering analyses, architectural decisions, and downstream engineering work.
 
@@ -23,9 +23,12 @@ Engineering decisions should be:
 - Justified
 - Reviewable
 
-Major engineering decisions should be supported by documented analysis before implementation begins.
+Significant engineering decisions should be supported by documented analysis before implementation begins.
 
-Where appropriate, engineering analyses (Decision Analyses) evaluate alternatives, while Architecture Decision Records (ADRs) record the accepted decision.
+Where appropriate:
+
+- **Decision Analyses (DAs)** evaluate engineering alternatives and trade-offs.
+- **Architecture Decision Records (ADRs)** document the accepted engineering decision and establish the engineering baseline.
 
 ---
 
@@ -41,15 +44,15 @@ Decision Analysis (Optional)
 Architecture Decision Record
         │
         ▼
-Engineering Artifacts
+Engineering Outputs
         │
         ▼
 Verification
 ```
 
-Not every decision requires a formal Decision Analysis.
+Not every engineering decision requires a formal Decision Analysis.
 
-Routine engineering decisions may be documented directly using an Architecture Decision Record.
+Routine decisions may be documented directly using an Architecture Decision Record when additional analysis is unnecessary.
 
 ---
 
@@ -57,7 +60,7 @@ Routine engineering decisions may be documented directly using an Architecture D
 
 | ID | Decision | Status | Analysis | ADR | Affects |
 |----|----------|--------|----------|-----|---------|
-| DEC-001 | Select Version 1 Reference Platform | Accepted | DA-001 | ADR-001 | Product Definition, Requirements, Architecture, Verification |
+| DEC-001 | Select Version 1 Reference Platform | Accepted | DA-001 | ADR-001 | Product Definition, Requirements Engineering, System Architecture, Verification |
 
 ---
 
@@ -67,29 +70,29 @@ The following status values are used throughout the repository.
 
 | Status | Meaning |
 |---------|---------|
-| Proposed | Decision is under evaluation. |
-| Accepted | Decision has been approved and becomes the engineering baseline. |
-| Superseded | Replaced by a newer decision. |
-| Deprecated | No longer recommended for future work but retained for historical traceability. |
+| Proposed | Decision has been identified and is under evaluation. |
+| Accepted | Decision has been approved and becomes part of the engineering baseline. |
+| Superseded | Decision has been replaced by a newer accepted decision. |
+| Deprecated | Decision is retained for historical traceability but is no longer recommended for future work. |
 
 ---
 
 # Creating New Decisions
 
-Create a Decision Analysis when:
+Create a **Decision Analysis (DA)** when:
 
 - Multiple viable alternatives exist.
 - Trade-offs require objective evaluation.
-- The decision has significant architectural impact.
+- The decision has significant technical or architectural impact.
 - Future contributors would benefit from understanding the engineering rationale.
 
-Create an Architecture Decision Record when:
+Create an **Architecture Decision Record (ADR)** when:
 
-- Recording the accepted engineering decision.
-- Establishing a project baseline.
+- Recording an accepted engineering decision.
+- Establishing or updating the engineering baseline.
 - Communicating downstream engineering impacts.
 
-Record every accepted decision in this log.
+Every accepted engineering decision should be recorded in the Decision Register.
 
 ---
 
@@ -98,15 +101,18 @@ Record every accepted decision in this log.
 Engineering decisions should maintain traceability to:
 
 - Engineering Question
-- Supporting Analysis (if applicable)
+- Supporting Decision Analysis (if applicable)
 - Architecture Decision Record
-- Affected Engineering Artifacts
+- Affected Engineering Outputs
 - Verification Activities
+
+Maintaining traceability supports engineering transparency, impact analysis, and objective engineering evidence throughout the engineering lifecycle.
 
 ---
 
 # Related Documents
 
-- ENGINEERING_LIFECYCLE.md
-- DA-001 Reference Platform Selection
-- ADR-001 Reference Platform Selection
+- `engineering/ENGINEERING_LIFECYCLE.md`
+- `engineering/ENGINEERING_FRAMEWORK.md`
+- `trade-studies/`
+- `architecture-decisions/`

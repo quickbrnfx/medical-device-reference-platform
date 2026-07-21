@@ -64,16 +64,16 @@ Templates correspond directly to the engineering disciplines described throughou
 Engineering Methodology
           │
           ▼
-Engineering Artifact
+Engineering Output
           │
           ▼
 Template
           │
           ▼
-Completed Project Artifact
+Completed Project Output
 ```
 
-The methodology explains *why* an artifact exists.
+The methodology explains *why* an output exists.
 
 The template helps engineers create it.
 

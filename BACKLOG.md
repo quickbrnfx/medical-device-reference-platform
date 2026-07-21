@@ -1,49 +1,39 @@
 # Project Backlog
 
-This backlog captures planned engineering work that has not yet entered active development.
+The Project Backlog captures engineering work that has been identified but has not yet entered an active milestone.
 
-Work currently in progress is tracked in `CURRENT_STATE.md`.
+Active engineering work is tracked in `CURRENT_STATE.md`.
 
-Completed work is recorded through Git history and Architecture Decision Records (ADRs).
-
----
-
-# Requirements Engineering
-
-No backlog items.
+Completed work is documented through Git history and Architecture Decision Records (ADRs).
 
 ---
 
-# Architecture
+# Engineering Backlog
 
-No backlog items.
-
----
-
-# Embedded Systems Engineering
-
-No backlog items.
-
----
-
-# Human Factors & Usability
-
-No backlog items.
-
----
-
-# Product Cybersecurity
-
-No backlog items.
-
----
-
-# Verification Engineering
-
-No backlog items.
+No engineering backlog items.
 
 ---
 
 # Repository Improvements
 
-No backlog items.
+No repository improvement backlog items.
+
+---
+
+# Future Reference Platforms
+
+The following reference platforms have been identified as potential future projects but are not currently planned for active development.
+
+- Infusion System
+- Wearable Medical Device
+- Implantable Medical Device
+- Surgical System
+- Connected Healthcare Device
+
+---
+
+# Ideas / Parking Lot
+
+This section captures ideas worth remembering but not yet prioritized for implementation.
+
+No items.

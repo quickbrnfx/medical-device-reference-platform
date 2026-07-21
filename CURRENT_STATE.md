@@ -1,6 +1,16 @@
 # Current State
 
+**Version:** 0.2
+
 **Last Updated:** July 2026
+
+---
+
+# Repository Status
+
+The repository foundation has been established and the reusable engineering framework is largely complete.
+
+Current efforts are focused on developing the first reference platform: the **Connected Physiological Monitor**.
 
 ---
 
@@ -10,13 +20,17 @@
 
 **Status:** ✅ Complete
 
-Successfully completed the definition and evaluation of the Version 1 reference product through a structured engineering decision process.
+Successfully completed the Product Definition milestone for the Connected Physiological Monitor reference platform.
 
 ### Key Outputs
 
 - Project Charter
-- Reference Product Selection
-- Overall Findings
+- Operational Context
+- Stakeholder Analysis
+- Stakeholder Personas
+- User Needs
+- Use Scenarios
+- Product Definition Framework
 - Product Recommendation
 - ADR-001 — Reference Product Selection
 
@@ -24,48 +38,66 @@ Successfully completed the definition and evaluation of the Version 1 reference 
 
 # Current Initiative
 
-## Milestone Transition
+## Milestone 2 — Requirements Engineering
 
-Repository Infrastructure has been completed.
+Repository infrastructure and engineering frameworks are sufficiently mature to begin platform development.
 
-The repository now contains the foundational project documentation, engineering documentation structure, reusable templates, and decision records required to support disciplined engineering throughout the remainder of the project.
-
-The current focus is preparing to begin Requirements Engineering.
+The current focus is establishing the initial system requirements for the Connected Physiological Monitor and maintaining traceability from User Needs through System Requirements.
 
 ---
 
 # Active Tasks
 
-- [ ] Begin stakeholder analysis
-- [ ] Identify stakeholders
-- [ ] Define operational context
-- [ ] Create initial user needs
-- [ ] Establish the requirements baseline
+- [ ] Define the initial System Requirements baseline
+- [ ] Establish Requirement Traceability
+- [ ] Allocate System Requirements
+- [ ] Review and refine Requirements
+- [ ] Prepare for System Architecture
 
 ---
 
 # Next Milestone
 
-## Milestone 2 — Requirements Engineering
+## Milestone 3 — System Architecture
 
-Establish the problem space by defining:
+Develop a system architecture that organizes system responsibilities into a coherent engineering solution.
 
-- Stakeholders
-- Operational context
-- User needs
-- System requirements
-- Initial traceability
+Primary deliverables include:
+
+- Functional Decomposition
+- System Architecture
+- Interface Definitions
+- Architecture Decisions
+
+Risk Engineering, Human Factors Engineering, Cybersecurity Engineering, and Quality Engineering will begin during this milestone and continue throughout development.
+
+---
+
+# Repository Progress
+
+| Area | Status |
+|-------|--------|
+| Repository Foundation | ✅ Complete |
+| Engineering Framework | ✅ Complete |
+| Product Definition | ✅ Complete |
+| Requirements Engineering | 🚧 In Progress |
+| System Architecture | ⏳ Not Started |
+| Implementation | ⏳ Not Started |
+| Verification | ⏳ Not Started |
+| Release | ⏳ Not Started |
 
 ---
 
 # Risks / Blockers
 
-None identified.
+No significant engineering blockers identified.
+
+Repository improvements that do not affect engineering progress will continue to be tracked separately in `BACKLOG.md`.
 
 ---
 
 # Notes
 
-Repository Infrastructure has been completed.
+The repository infrastructure is considered stable.
 
-Future repository improvements will be tracked in `BACKLOG.md` and implemented as needed without interrupting engineering milestones.
+Future work is focused on expanding the engineering content and developing complete reference platforms rather than restructuring the repository itself.

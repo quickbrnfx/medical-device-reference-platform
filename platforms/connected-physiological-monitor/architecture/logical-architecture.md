@@ -20,7 +20,8 @@ Connected Physiological Monitor
 ├── Monitoring Configuration
 ├── Physiological Measurement Acquisition
 ├── Physiological Measurement Availability
-└── Physiological Measurement Processing
+├── Physiological Measurement Processing
+└── Physiological Information
 ```
 
 ---
@@ -109,6 +110,18 @@ Associated Capability Areas
 
 - CA-006
 
+## LS-007 — Physiological Information
+
+Responsible for producing physiological information from processed physiological measurements and their associated physiological measurement availability for downstream system functions.
+
+Associated Functions
+
+- F-007 Provide Physiological Information
+
+Associated Capability Areas
+
+- CA-007
+
 ---
 
 # Logical Relationships
@@ -121,13 +134,18 @@ The logical subsystems cooperate to implement physiological monitoring.
                                  ▼
                         Operational State
                                  │
-        ┌────────────────────────┼────────────────────────┐
-        ▼                        ▼                        ▼
-Monitoring Configuration   Measurement Acquisition   Measurement Availability
-                                      │                        │
-                                      └────────────┬───────────┘
-                                                   ▼
-                                   Measurement Processing
+                                 ▼
+                 Monitoring Configuration
+                                 │
+                                 ▼
+              Physiological Measurement Acquisition
+                        ├──────────────────────┐
+                        ▼                      ▼
+      Physiological Measurement      Physiological Measurement
+             Availability                 Processing
+                        └──────────┬───────────┘
+                                   ▼
+                    Physiological Information
 ```
 
 The relationships shown represent logical dependencies between subsystems. They do not imply software calls, execution order, or implementation mechanisms.
@@ -144,7 +162,7 @@ The relationships shown represent logical dependencies between subsystems. They 
 | LS-004 | F-004 | CA-004 |
 | LS-005 | F-005 | CA-005 |
 | LS-006 | F-006 | CA-006 |
-
+| LS-007 | F-007 | CA-007 |
 ---
 
 # Review Status

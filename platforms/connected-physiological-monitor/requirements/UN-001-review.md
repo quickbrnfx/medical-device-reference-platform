@@ -782,19 +782,120 @@ The requirements in this capability area define how the Connected Physiological 
 
 ---
 
-## CA-005 — Physiological Data Availability
+# CA-005 — Physiological Data Availability
 
-| Requirement | Status |
-|------------|--------|
-| SR-013 – Indicate measurement availability | Draft |
-| SR-014 – Distinguish unavailable measurements | Draft |
+**Purpose**
 
-### Review Questions
+Determine and communicate the availability of physiological measurements acquired from configured physiological sensors.
 
-- Is availability evaluated independently for each physiological parameter?
-- How is unavailable data represented?
-- When does data transition from unavailable to available?
-- Should historical availability be retained?
+The requirements in this capability area define how the Connected Physiological Monitor determines and communicates physiological measurement availability for use by downstream system functions.
+
+---
+
+## Functional Requirements
+
+### SR-054
+
+**Requirement**
+
+> The system shall determine the availability of physiological measurements acquired from configured physiological sensors.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-004 Physiological Data Acquisition
+
+---
+
+### SR-055
+
+**Requirement**
+
+> The system shall determine the availability of each physiological measurement independently.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-056
+
+**Requirement**
+
+> The system shall detect changes in physiological measurement availability.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-057
+
+**Requirement**
+
+> The system shall provide the availability status of each physiological measurement to downstream system functions.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-058
+
+**Requirement**
+
+> The system shall represent the availability of each physiological measurement as either Available or Unavailable.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- DEC-002 Binary Measurement Availability
+
+---
+
+### SR-059
+
+**Requirement**
+
+> The system shall initialize the availability status of each physiological measurement to Unavailable upon initiation of a monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- DEC-002 Binary Measurement Availability
+
+---
+
+## Review Status
+
+**Status:** Baseline Approved
 
 ---
 

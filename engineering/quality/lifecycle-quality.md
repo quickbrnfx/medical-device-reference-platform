@@ -50,6 +50,24 @@ Changes that affect system quality should remain traceable to the engineering ra
 
 ---
 
+## Engineering Governance
+
+Lifecycle Quality is maintained through disciplined engineering governance rather than isolated quality activities.
+
+Engineering governance establishes confidence that engineering information is sufficiently mature to support downstream engineering work.
+
+Key governance activities include:
+
+- Engineering Reviews
+- Baseline Management
+- Engineering Change
+- Requirements Traceability
+- Objective Evidence
+
+Together, these activities provide confidence that engineering decisions remain justified as the system evolves.
+
+---
+
 ## Quality Across the Engineering Lifecycle
 
 Quality considerations should influence every stage of development.
@@ -69,13 +87,37 @@ Quality is strengthened when each lifecycle stage builds upon the work completed
 
 ---
 
+## Engineering Reviews
+
+Engineering reviews evaluate engineering information before it becomes the basis for subsequent engineering activities.
+
+The objective of an engineering review is not document approval.
+
+Its purpose is to determine whether engineering information is sufficiently complete, consistent, and traceable to support downstream engineering work.
+
+Engineering reviews should evaluate questions such as:
+
+- Does the artifact answer its intended engineering question?
+- Is the scope appropriate?
+- Are assumptions documented?
+- Is the information internally consistent?
+- Does the artifact unnecessarily constrain downstream engineering?
+- Are engineering decisions captured and justified?
+- Is the artifact ready to be baselined?
+
+Engineering reviews increase engineering confidence and reduce the likelihood of propagating defects throughout the engineering lifecycle.
+
+---
+
 ## Continuous Improvement
 
 Engineering knowledge grows throughout the life of a system.
 
-Verification activities, operational experience, maintenance history, user feedback, and engineering reviews provide valuable information that can improve future decisions.
+Verification activities, operational experience, maintenance history, user feedback, engineering reviews, and engineering change all provide information that can improve future engineering decisions.
 
 Continuous improvement should be viewed as an integral part of engineering rather than a corrective activity performed only after problems occur.
+
+The objective of continuous improvement is to increase engineering confidence while reducing uncertainty in future development efforts.
 
 ---
 
@@ -108,4 +150,4 @@ Maintenance
 Continuous Improvement
 ```
 
-Engineering Quality is sustained by maintaining consistency, traceability, and evidence throughout the complete system lifecycle.
+Engineering Quality is sustained through disciplined engineering governance, including reviews, baselines, traceability, engineering change, and objective evidence throughout the complete system lifecycle.

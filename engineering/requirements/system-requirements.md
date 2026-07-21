@@ -54,6 +54,51 @@ As requirements are developed, they should remain:
 - Traceable
 - Solution independent whenever practical
 
+System Requirements are developed iteratively from approved User Needs.
+
+The objective is to establish a complete functional baseline before introducing performance, safety, cybersecurity, interface, and quality constraints.
+
+```text
+User Need
+      │
+      ▼
+Identify Capability Areas
+      │
+      ▼
+Review Capability Areas
+      │
+      ▼
+Freeze Capability Areas
+      │
+      ▼
+Derive Functional Requirements
+      │
+      ▼
+Peer Review
+      │
+      ▼
+Next User Need
+```
+
+Once all User Needs have been translated into functional requirements, additional engineering disciplines refine the specification.
+
+```text
+Functional Requirements
+        │
+        ├──────────────┐
+        ▼              ▼
+Risk Analysis    Cybersecurity Engineering
+        ▼              ▼
+Safety Req.      Security Req.
+        └──────────────┘
+               ▼
+Performance / Interface / Quality Requirements
+               ▼
+System Requirements Baseline
+```
+
+This approach ensures that functional behavior is established before engineering constraints are applied, improving traceability and reducing premature design decisions.
+
 ---
 
 ## Relationship to Other Artifacts

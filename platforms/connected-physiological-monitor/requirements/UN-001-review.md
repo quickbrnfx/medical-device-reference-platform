@@ -566,19 +566,105 @@ The requirements in this capability area are derived from the System Operational
 
 ---
 
-## CA-003 — Monitoring Configuration
+# CA-003 — Monitoring Configuration
 
-| Requirement | Status |
-|------------|--------|
-| SR-015 – Configure monitoring prior to session initiation | Draft |
+**Purpose**
 
-### Review Questions
+Establish and validate the monitoring configuration required before initiating a monitoring session.
 
-- Can monitoring configuration be modified?
-- When is configuration permitted?
-- How is configuration validated?
-- Can monitoring begin with an invalid configuration?
-- What configuration information is mandatory?
+The requirements in this capability area define how the Connected Physiological Monitor establishes, validates, and maintains the monitoring configuration throughout the monitoring session lifecycle.
+
+---
+
+## Functional Requirements
+
+### SR-043
+
+**Requirement**
+
+> The system shall permit modification of the monitoring configuration only while in the Ready state.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-044
+
+**Requirement**
+
+> The system shall validate the monitoring configuration before permitting initiation of a monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-001 Monitoring Session Management
+- System Operational State Model
+
+---
+
+### SR-045
+
+**Requirement**
+
+> The system shall prevent modification of the monitoring configuration while a monitoring session is active.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-046
+
+**Requirement**
+
+> The system shall preserve the monitoring configuration following completion of a monitoring session until modified by an authorized clinical operator.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-047
+
+**Requirement**
+
+> The system shall use the validated monitoring configuration throughout the active monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+## Review Status
+
+**Status:** Baseline Approved
 
 ---
 

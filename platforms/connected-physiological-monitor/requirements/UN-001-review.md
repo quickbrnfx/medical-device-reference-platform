@@ -760,6 +760,20 @@ The requirements in this capability area define how the Connected Physiological 
 
 - UN-001
 
+### SR-053
+
+**Requirement**
+
+> The system shall initiate physiological measurement acquisition upon entering the Monitoring state.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
 ---
 
 ## Review Status

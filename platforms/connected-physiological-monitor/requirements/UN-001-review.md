@@ -259,21 +259,310 @@ This capability area establishes the functional requirements governing the lifec
 
 ---
 
-## CA-002 — Monitoring State Management
+# CA-002 — Monitoring State Management
 
-| Requirement | Status |
-|------------|--------|
-| SR-010 – Transition to Ready state | Draft |
-| SR-011 – Transition to Monitoring state | Draft |
-| SR-012 – Indicate current operational state | Draft |
+**Purpose**
 
-### Review Questions
+Define the operational states of the Connected Physiological Monitor and govern the allowable transitions between those states during normal and abnormal operation.
 
-- What operational states are required?
-- What events trigger state transitions?
-- Which transitions are prohibited?
-- Are fault states required?
-- Are shutdown and initialization represented as operational states?
+The requirements in this capability area are derived from the System Operational State Model.
+
+---
+
+## Functional Requirements
+
+### SR-026
+
+**Requirement**
+
+> The system shall enter the Initializing state upon system startup.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-027
+
+**Requirement**
+
+> The system shall transition from the Initializing state to the Ready state only after successful completion of initialization.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-028
+
+**Requirement**
+
+> The system shall transition from the Initializing state to the Fault state upon detection of a Fault Condition during initialization.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-029
+
+**Requirement**
+
+> The system shall accept requests to initiate a monitoring session only while in the Ready state.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-030
+
+**Requirement**
+
+> The system shall transition from the Ready state to the Monitoring state upon successful initiation of a monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-031
+
+**Requirement**
+
+> The system shall transition from the Ready state to the Fault state upon detection of a Fault Condition.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-032
+
+**Requirement**
+
+> The system shall remain in the Monitoring state until either the active monitoring session is completed or a Fault Condition is detected.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-033
+
+**Requirement**
+
+> The system shall transition from the Monitoring state to the Finalizing state upon completion of the active monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-034
+
+**Requirement**
+
+> The system shall transition from the Monitoring state to the Fault state upon detection of a Fault Condition.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-035
+
+**Requirement**
+
+> The system shall remain in the Finalizing state until finalization activities have been completed or a Fault Condition is detected.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-036
+
+**Requirement**
+
+> The system shall transition from the Finalizing state to the Ready state upon successful completion of finalization activities.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-037
+
+**Requirement**
+
+> The system shall transition from the Finalizing state to the Fault state upon detection of a Fault Condition.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-038
+
+**Requirement**
+
+> The system shall transition to the Fault state upon detection of a Fault Condition.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-039
+
+**Requirement**
+
+> The system shall suspend normal operation while in the Fault state.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-040
+
+**Requirement**
+
+> The system shall transition from the Fault state to the Initializing state upon initiation of system recovery.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-041
+
+**Requirement**
+
+> The system shall not transition directly from the Fault state to any operational state other than the Initializing state.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+### SR-042
+
+**Requirement**
+
+> The system shall occupy exactly one operational state at any given time.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- System Operational State Model
+
+---
+
+## Review Status
+
+**Status:** Baseline Approved
 
 ---
 

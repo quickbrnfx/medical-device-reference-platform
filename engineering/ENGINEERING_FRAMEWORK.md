@@ -131,6 +131,8 @@ These disciplines contribute engineering requirements, architectural constraints
 
 **Primary Outputs**
 
+- User Needs
+- Capability Areas
 - System Requirements
 - Requirements Traceability
 
@@ -148,10 +150,10 @@ These disciplines contribute engineering requirements, architectural constraints
 
 **Primary Outputs**
 
-- Functional Decomposition
-- System Architecture
-- Interfaces
-- State Models
+- Functional Architecture
+- Logical Architecture
+- System Interface Architecture
+- System Models
 
 ---
 

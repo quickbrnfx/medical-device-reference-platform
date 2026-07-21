@@ -25,7 +25,9 @@ Connected Physiological Monitor
 │
 ├── Determine Measurement Availability
 │
-└── Process Physiological Measurements
+├── Process Physiological Measurements
+│
+└── Provide Physiological Information
 ```
 
 ---
@@ -90,6 +92,14 @@ Associated Capability Areas
 
 - CA-006
 
+## F-007 — Provide Physiological Information
+
+Responsible for producing physiological information from processed physiological measurements and their associated physiological measurement availability for downstream system functions.
+
+Associated Capability Areas
+
+- CA-007
+
 ---
 
 # Functional Relationships
@@ -107,15 +117,17 @@ Manage Monitoring Configuration
             │
             ▼
 Acquire Physiological Measurements
-            │
-            ▼
-Determine Measurement Availability
-            │
-            ▼
-Process Physiological Measurements
+       ├────────────────────┐
+       ▼                    ▼
+Determine             Process
+Measurement           Physiological
+Availability          Measurements
+       └────────────┬────────────┘
+                    ▼
+     Provide Physiological Information
 ```
 
-The relationships shown represent functional dependencies rather than execution order. Individual functions may operate concurrently during normal system operation.
+The relationships shown represent functional dependencies rather than execution order. Individual functions may operate concurrently during normal system operation. A function may provide engineering information to multiple downstream functions, and downstream functions may depend upon engineering information produced by multiple upstream functions.
 
 ---
 
@@ -129,9 +141,11 @@ The relationships shown represent functional dependencies rather than execution 
 | F-004 | CA-004 |
 | F-005 | CA-005 |
 | F-006 | CA-006 |
+| F-007 | CA-007 |
+
 
 ---
 
 # Review Status
 
-**Status:** Baseline Approved
+**Status:** Updated Following UN-001 Engineering Review

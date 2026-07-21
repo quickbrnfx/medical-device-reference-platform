@@ -34,6 +34,22 @@ The following reference platforms have been identified as potential future proje
 
 # Ideas / Parking Lot
 
-This section captures ideas worth remembering but not yet prioritized for implementation.
+Future Enhancement
 
-No items.
+Evaluate support for dynamic monitoring configuration during an active monitoring session.
+
+Potential capabilities include:
+
+- Enable/disable monitored parameters
+- Add/remove sensors
+- Modify display configuration
+- Clinical workflow updates
+
+Engineering impact:
+
+- Operational State Model
+- Risk Analysis
+- Alarm Management
+- Verification
+- Cybersecurity
+- Audit Trail

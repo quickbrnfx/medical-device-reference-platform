@@ -28,6 +28,8 @@ The following capability areas have been identified and reviewed.
 | CA-004 | Physiological Data Acquisition | Frozen |
 | CA-005 | Physiological Data Availability | Frozen |
 | CA-006 | Physiological Data Processing | Frozen |
+| CA-007 | Physiological Information | Frozen |
+
 
 ---
 
@@ -999,14 +1001,103 @@ The requirements in this capability area define how the Connected Physiological 
 
 ---
 
+---
+
+# CA-007 — Physiological Information
+
+**Purpose**
+
+Provide physiological information that includes processed physiological measurements and their associated physiological measurement availability for downstream system use.
+
+The requirements in this capability area define how the Connected Physiological Monitor produces physiological information for downstream system functions while preserving the association between processed physiological measurements and their availability.
+
+---
+
+## Functional Requirements
+
+### SR-065
+
+**Requirement**
+
+> The system shall produce physiological information that includes processed physiological measurements and their associated physiological measurement availability.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-005 Physiological Data Availability
+- CA-006 Physiological Data Processing
+
+---
+
+### SR-066
+
+**Requirement**
+
+> The system shall maintain the association between each processed physiological measurement and its corresponding physiological measurement availability.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-005 Physiological Data Availability
+- CA-006 Physiological Data Processing
+
+---
+
+### SR-067
+
+**Requirement**
+
+> The system shall make physiological information available for downstream system functions.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-068
+
+**Requirement**
+
+> The system shall produce physiological information for each configured physiological measurement.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-003 Monitoring Configuration
+
+---
+
+## Review Status
+
+**Status:** Baseline Approved
+
+---
+
 # Outstanding Engineering Work
 
 The following activities remain before UN-001 is considered complete.
 
-- Complete functional requirements for each Capability Area.
-- Resolve outstanding review questions.
+- Perform a Capability Completeness Review for UN-001.
+- Update the Functional, Logical, Interface, and Behavior Architectures to reflect the approved capability baseline.
 - Perform peer review for ambiguity, completeness, and traceability.
-- Establish the functional baseline for UN-001.
+- Establish the UN-001 engineering baseline.
 - Proceed to UN-002.
 
 ---
@@ -1018,5 +1109,7 @@ UN-001 is complete when:
 - Every Capability Area has a complete functional requirement set.
 - Every requirement is objective and verifiable.
 - Traceability to UN-001 has been established.
+- Every capability has a defined producer-consumer relationship.
+- The capability model has been verified to completely satisfy User Need UN-001.
 - Peer review comments have been resolved.
 - The functional baseline has been approved.

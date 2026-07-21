@@ -33,22 +33,229 @@ The following capability areas have been identified and reviewed.
 
 # Current Functional Requirements
 
-## CA-001 — Monitoring Session Management
+# CA-001 — Monitoring Session Management
 
-| Requirement | Status |
-|------------|--------|
-| SR-001 – Initiate monitoring session | Draft |
-| SR-002 – Associate monitoring session with patient | Draft |
-| SR-003 – Indicate active monitoring session | Draft |
+**Purpose**
 
-### Review Questions
+Manage the lifecycle of a patient monitoring session from initiation through completion.
 
-- How is a monitoring session completed?
-- Can a monitoring session be cancelled?
-- Can multiple monitoring sessions exist simultaneously?
-- Can a completed monitoring session be resumed?
-- What constitutes the lifecycle of a monitoring session?
+---
 
+## Functional Requirements
+
+### SR-001
+
+**Requirement**
+
+> The system shall allow an authorized clinical operator to initiate a new monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-002
+
+**Requirement**
+
+> The system shall uniquely associate each monitoring session with a single patient identifier.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-003
+
+**Requirement**
+
+> The system shall indicate the current lifecycle state of the monitoring session.
+
+**Verification**
+
+- Inspection, Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-016
+
+**Requirement**
+
+> The system shall transition an active monitoring session to the completed state upon request from an authorized clinical operator.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-017
+
+**Requirement**
+
+> The system shall terminate physiological data acquisition upon completion of the active monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-018
+
+**Requirement**
+
+> The system shall support only one active monitoring session at a time.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-019
+
+**Requirement**
+
+> The system shall prevent modification of the associated patient identifier while a monitoring session is active.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-020
+
+**Requirement**
+
+> The system shall not associate physiological measurements acquired after completion of a monitoring session with the completed monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-021
+
+**Requirement**
+
+> The system shall assign a unique identifier to each monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-022
+
+**Requirement**
+
+> The system shall record the initiation of each monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-023
+
+**Requirement**
+
+> The system shall record the completion of each monitoring session.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-024
+
+**Requirement**
+
+> The system shall prevent initiation of a monitoring session unless all session preconditions are satisfied.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-025
+
+**Requirement**
+
+> The system shall prevent a completed monitoring session from returning to the active state.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+## Review Status
+
+**Status:** Baseline Approved
+
+This capability area establishes the functional requirements governing the lifecycle of a monitoring session. Additional performance, safety, cybersecurity, interface, and quality requirements may refine these requirements but shall not alter their intended functional behavior without an approved engineering change.
 ---
 
 ## CA-002 — Monitoring State Management

@@ -256,6 +256,7 @@ Manage the lifecycle of a patient monitoring session from initiation through com
 **Status:** Baseline Approved
 
 This capability area establishes the functional requirements governing the lifecycle of a monitoring session. Additional performance, safety, cybersecurity, interface, and quality requirements may refine these requirements but shall not alter their intended functional behavior without an approved engineering change.
+
 ---
 
 ## CA-002 — Monitoring State Management

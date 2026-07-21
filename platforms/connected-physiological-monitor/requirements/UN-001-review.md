@@ -899,21 +899,103 @@ The requirements in this capability area define how the Connected Physiological 
 
 ---
 
-## CA-006 — Physiological Data Processing
+# CA-006 — Physiological Data Processing
 
-| Requirement | Status |
-|------------|--------|
-| SR-007 – Process acquired measurements | Draft |
-| SR-008 – Maintain chronological ordering | Draft |
-| SR-009 – Provide processed measurements to downstream functions | Draft |
+**Purpose**
 
-### Review Questions
+Process acquired physiological measurements into a form suitable for downstream system functions.
 
-- Is processing continuous while monitoring is active?
-- What occurs when acquisition stops?
-- Can downstream functions consume incomplete data?
-- Are processed measurements buffered?
-- What functions consume processed measurements?
+The requirements in this capability area define how the Connected Physiological Monitor transforms acquired physiological measurements into processed physiological measurements for use by downstream system functions.
+
+---
+
+## Functional Requirements
+
+### SR-060
+
+**Requirement**
+
+> The system shall process physiological measurements acquired from configured physiological sensors.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-004 Physiological Data Acquisition
+
+---
+
+### SR-061
+
+**Requirement**
+
+> The system shall produce processed physiological measurements for downstream system functions.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-062
+
+**Requirement**
+
+> The system shall preserve the association between acquired physiological measurements and their corresponding processed physiological measurements.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+### SR-063
+
+**Requirement**
+
+> The system shall process physiological measurements using the validated monitoring configuration.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+- CA-003 Monitoring Configuration
+
+---
+
+### SR-064
+
+**Requirement**
+
+> The system shall provide processed physiological measurements to downstream system functions.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-001
+
+---
+
+## Review Status
+
+**Status:** Baseline Approved
 
 ---
 

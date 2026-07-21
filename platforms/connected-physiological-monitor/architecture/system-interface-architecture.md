@@ -31,9 +31,11 @@ Physiological Measurement Acquisition
         ├────────────────────────────┐
         ▼                            ▼
 Measurement Availability     Measurement Processing
-        │                            ▲
-        │ Availability Status        │
-        └────────────────────────────┘
+        │                            │
+        │ Availability Status        │ Processed Physiological Measurements
+        └──────────────┬─────────────┘
+                       ▼
+          Physiological Information
 ```
 
 ---
@@ -148,15 +150,35 @@ Measurement Availability
 
 ### Consumer
 
-Measurement Processing
+Physiological Information
 
 ### Information
 
-Measurement Availability Status
+Physiological Measurement Availability
 
 ### Purpose
 
-Provide physiological measurement availability for use during measurement processing.
+Provide physiological measurement availability for production of physiological information.
+
+---
+
+## IF-007
+
+### Producer
+
+Measurement Processing
+
+### Consumer
+
+Physiological Information
+
+### Information
+
+Processed Physiological Measurements
+
+### Purpose
+
+Provide processed physiological measurements for production of physiological information.
 
 ---
 
@@ -181,7 +203,8 @@ The Connected Physiological Monitor follows these interface principles:
 | IF-003 | Monitoring Configuration | Physiological Measurement Acquisition |
 | IF-004 | Physiological Measurement Acquisition | Measurement Availability |
 | IF-005 | Physiological Measurement Acquisition | Measurement Processing |
-| IF-006 | Measurement Availability | Measurement Processing |
+| IF-006 | Measurement Availability | Physiological Information |
+| IF-007 | Measurement Processing | Physiological Information |
 
 ---
 

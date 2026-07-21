@@ -1,6 +1,7 @@
 # Engineering Lifecycle
 
 **Status:** Approved
+**Version:** 1.2
 
 ---
 
@@ -74,7 +75,7 @@ Implementation
         ▼
 Objective Evidence
 ```
-
+Engineering Decisions are refined throughout the lifecycle as additional engineering information becomes available. Formal Decision Analysis establishes significant engineering direction early in development, while subsequent engineering decisions are captured as the design matures.
 ---
 
 # Lifecycle Activities
@@ -149,11 +150,39 @@ Requirements Engineering transforms stakeholder needs into measurable, verifiabl
 - Traceability
 - Verification Planning
 
+### Requirements Development Workflow
+
+Requirements are derived through progressive decomposition of stakeholder needs into cohesive engineering capabilities.
+
+```text
+User Needs
+        │
+        ▼
+Capability Identification
+        │
+        ▼
+Capability Review
+        │
+        ▼
+Capability Baseline
+        │
+        ▼
+Requirements Derivation
+        │
+        ▼
+Requirements Review
+        │
+        ▼
+Requirements Baseline
+```
+
+
 ### Outputs
 
+- Capability Areas
 - System Requirements
 - Verification Methods
-- Requirement Traceability
+- Requirements Traceability
 
 ---
 
@@ -169,16 +198,39 @@ Architecture organizes system behavior into logical and physical structures capa
 
 ### Primary Activities
 
-- Functional Decomposition
-- Interfaces
-- Architecture Decisions
+- Functional Architecture
+- Logical Architecture
+- System Interface Architecture
 - System Models
+- Architecture Decisions
+
+### Architecture Development Workflow
+
+Architecture is developed incrementally from approved system requirements.
+
+```text
+System Requirements
+        │
+        ▼
+Functional Architecture
+        │
+        ▼
+Logical Architecture
+        │
+        ▼
+System Interface Architecture
+        │
+        ▼
+Implementation Architecture
+```
 
 ### Outputs
 
-- Architecture
-- Interfaces
-- Design Decisions
+- Functional Architecture
+- Logical Architecture
+- System Interface Architecture
+- System Models
+- Architecture Decisions
 
 ---
 
@@ -343,6 +395,10 @@ Implementation validates engineering decisions—it does not replace them.
 Verification demonstrates engineering quality through objective evidence.
 
 Engineering is iterative. Information produced by later activities frequently informs refinement of earlier engineering decisions.
+
+Engineering capabilities should be reviewed and baselined before deriving system requirements.
+
+Architecture should be refined through progressively more detailed architectural views rather than a single architectural description.
 
 ---
 

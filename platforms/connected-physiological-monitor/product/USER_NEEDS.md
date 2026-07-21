@@ -95,9 +95,9 @@ Priorities support engineering tradeoff discussions and implementation planning 
 
 # Engineering Implications
 
-Each User Need establishes one or more engineering objectives that are realized through downstream engineering artifacts.
+Each User Need establishes one or more engineering objectives that are realized through downstream engineering outputs.
 
-| Engineering Artifact | Relationship |
+| Engineering Output | Relationship |
 |----------------------|--------------|
 | System Requirements | Define behaviors that satisfy each User Need. |
 | System Architecture | Allocates system responsibilities that enable User Needs. |

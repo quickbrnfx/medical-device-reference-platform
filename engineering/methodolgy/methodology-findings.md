@@ -1,19 +1,51 @@
 # Methodology Findings
 
-## MF-001
+This document records observations made while developing the Medical Device Reference Platform engineering methodology.
 
-### Observation
+Methodology findings capture lessons learned during engineering activities. They are not approved process changes. Findings remain open until sufficient evidence exists to either incorporate the observation into the engineering methodology or reject it.
 
-Capability decomposition of UN-002 identified difficulty deriving independent functional responsibilities from the User Need.
+---
 
-### Evidence
+# MF-001 — Capability Candidate Evaluation
 
-Candidate Capability Areas for Confidentiality and Integrity did not produce independent functional requirements.
+**Status:** Open
 
-### Open Question
+## Background
 
-Should User Needs be reviewed for decomposability before Capability Review?
+During Capability Review for User Need UN-002, multiple candidate Capability Areas were evaluated before establishing the proposed capability model.
 
-### Status
+The review determined that documenting only the final Capability Areas obscured the engineering reasoning that led to acceptance or rejection of candidate capabilities.
 
-Open
+## Observation
+
+Capability Reviews currently record the approved Capability Areas but do not explicitly document Capability Areas that were evaluated and rejected.
+
+As a result, future reviewers cannot easily determine:
+
+- Which alternatives were considered
+- Why candidate capabilities were rejected
+- How the final capability baseline was established
+
+## Recommendation
+
+Future Capability Review templates should include a **Capability Evaluation** section documenting all candidate Capability Areas considered during decomposition.
+
+Each candidate should include:
+
+- Candidate Capability Area
+- Decision (Accepted, Rejected, Deferred)
+- Engineering rationale supporting the decision
+
+## Potential Benefits
+
+- Improves engineering traceability.
+- Documents decomposition rationale.
+- Prevents repeated evaluation of previously rejected capabilities.
+- Improves review transparency.
+- Better supports future methodology development.
+
+## Decision
+
+No methodology change at this time.
+
+This finding will remain open until additional Capability Reviews provide sufficient evidence to determine whether the Capability Review template should be updated.

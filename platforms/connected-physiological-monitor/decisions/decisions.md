@@ -117,21 +117,21 @@ Future platform revisions may evaluate additional availability states, such as:
 
 Introducing additional states would require corresponding updates to system requirements, architecture, verification, and risk management artifacts.
 
-## DEC-003 – Revision of User Need UN-002
+# DEC-003 – Revision of User Need UN-002
 
 ### Context
 
 Capability decomposition of UN-002 identified that the term "protected" could not be translated into a complete, independent set of engineering responsibilities.
 
-### Decision
+## Decision
 
 Revise UN-002 to express a single stakeholder outcome focused on authorized access to physiological information.
 
-### Rationale
+## Rationale
 
 The revised User Need enables complete engineering traceability from stakeholder outcome through capability decomposition, requirements development, and architecture allocation.
 
-### Consequences
+## Consequences
 
 - Capability Review can proceed with a single, well-defined Capability Area.
 - Functional requirements become directly traceable.

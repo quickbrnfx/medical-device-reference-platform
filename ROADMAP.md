@@ -51,6 +51,7 @@ Transform user needs into objective, verifiable engineering requirements.
 - Requirement Traceability
 - Requirement Allocation
 - Requirement Review
+- Engineering Review
 
 **Outcome**
 
@@ -68,6 +69,8 @@ Organize system responsibilities into a coherent engineering solution.
 - System Architecture
 - Interface Definitions
 - Architecture Decisions
+- Architecture Synchronization
+- Behavioral Modeling
 
 **Cross-Cutting Engineering**
 
@@ -77,10 +80,11 @@ The following engineering disciplines begin during this milestone and continue t
 - Human Factors Engineering
 - Cybersecurity Engineering
 - Quality Engineering
+- Configuration Management
 
 **Outcome**
 
-A system architecture capable of satisfying stakeholder needs and system requirements.
+A synchronized engineering architecture and behavior model capable of satisfying stakeholder needs and system requirements.
 
 ---
 
@@ -130,6 +134,7 @@ Prepare the reference platform for public release.
 - Repository Cleanup
 - Final Traceability Review
 - Release Packaging
+- Engineering Baseline Review
 
 **Outcome**
 

@@ -137,9 +137,19 @@ Capability Areas organize requirements development but are not themselves engine
 
 Detailed System Requirements will be developed within each capability area.
 
-| ID | Category | User Need | System Requirement | Verification |
-|----|----------|-----------|--------------------|--------------|
-| SR-001 | — | UN-001 | *To be developed* | — |
+| User Need | Capability Areas | Requirement IDs |
+| --------- | ---------------- | --------------- |
+| UN-001    | CA-001 – CA-007  | SR-001 – SR-068 |
+| UN-002    | CA-008 – CA-010  | SR-069 – SR-0XX |
+| UN-003    | TBD              | TBD             |
+| UN-004    | TBD              | TBD             |
+| UN-005    | TBD              | TBD             |
+| UN-006    | TBD              | TBD             |
+| UN-007    | TBD              | TBD             |
+| UN-008    | TBD              | TBD             |
+| UN-009    | TBD              | TBD             |
+| UN-010    | TBD              | TBD             |
+| UN-011    | TBD              | TBD             |
 
 This document establishes the engineering framework for developing complete, traceable System Requirements while preserving traceability to originating User Needs.
 

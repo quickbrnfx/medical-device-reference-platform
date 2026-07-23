@@ -176,7 +176,7 @@ Lead Systems Engineering Review
 
 **Date**
 
-*YYYY-MM-DD*
+*2026-07-23*
 
 **Comments**
 

@@ -14,9 +14,9 @@ System Requirements describe **what** the reference platform must do and provide
 
 # Definition
 
-A System Requirement specifies a capability, behavior, constraint, or quality attribute that the system must satisfy.
+A System Requirement specifies an observable system behavior, constraint, or quality attribute that the system must satisfy.
 
-System Requirements translate stakeholder objectives into objective engineering statements that can be allocated, implemented, and verified.
+System Requirements translate approved engineering responsibilities into objective engineering statements that can be allocated, implemented, and verified.
 
 Every System Requirement shall:
 
@@ -51,9 +51,11 @@ Approved Capability Area
         ↓
 Requirements Review
         ↓
-System Requirement(s)
+Approved System Requirement
         ↓
-Verification Case(s)
+Architecture Allocation
+        ↓
+Verification Case
 ```
 
 Every System Requirement shall trace to:
@@ -74,7 +76,7 @@ A high-quality System Requirement should exhibit the following characteristics.
 | Atomic | Expresses a single engineering obligation. |
 | Solution Independent | States what the system must accomplish rather than how it is implemented, unless implementation itself is required. |
 | Verifiable | Can be objectively confirmed through Inspection, Analysis, Demonstration, or Test. |
-| Traceable | Can be linked to originating User Needs and downstream Verification activities. |
+| Traceable | Can be linked to originating User Needs, approved Capability Areas, and downstream Verification activities. |
 
 ---
 
@@ -174,6 +176,18 @@ This document establishes the engineering baseline for approved System Requireme
 
 ---
 
+---
+
+# Requirement Allocation
+
+Approved System Requirements are allocated to architectural elements during System Architecture development.
+
+This specification intentionally does not allocate requirements to hardware, software, interfaces, or other implementation elements.
+
+Requirement allocation is documented within the System Architecture discipline.
+
+---
+
 # Verification Methods
 
 Each System Requirement shall identify one or more Verification Methods.
@@ -203,7 +217,9 @@ Approved System Requirements establish the engineering baseline for subsequent d
 | Cybersecurity Engineering | Derives security architecture and security controls. |
 | Verification Planning | Defines objective evidence demonstrating each requirement has been satisfied. |
 
-System Requirements represent the primary engineering contract between Product Definition and System Design.
+System Requirements establish the approved behavioral baseline for the system.
+
+All downstream engineering disciplines consume this baseline when developing architecture, risk analyses, cybersecurity controls, human factors artifacts, and verification activities.
 
 ---
 

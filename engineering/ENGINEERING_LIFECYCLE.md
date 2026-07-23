@@ -76,7 +76,9 @@ Implementation
         ▼
 Objective Evidence
 ```
+
 Engineering Decisions are refined throughout the lifecycle as additional engineering information becomes available. Formal Decision Analysis establishes significant engineering direction early in development, while subsequent engineering decisions are captured as the design matures.
+
 ---
 
 # Lifecycle Activities

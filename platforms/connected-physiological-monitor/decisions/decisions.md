@@ -137,18 +137,19 @@ The revised User Need enables complete engineering traceability from stakeholder
 - Functional requirements become directly traceable.
 - Other concerns (e.g., information accuracy, availability, patient association) remain open for evaluation in future engineering work.
 
-DEC-003 — Constraining Capabilities Require Domain Engineering
-Status
+# DEC-004 — Constraining Capabilities Require Domain Engineering
+
+## Status
 
 Accepted
 
-Context
+## Context
 
 During the Requirements Review for CA-010 – Maintain Safe Operation, it was determined that the Capability could not be decomposed into complete, verifiable System Requirements without outputs from the Risk Management discipline.
 
 Unlike purely functional capabilities, safety responsibilities require hazard analysis to identify the specific conditions that the system must detect, prevent, or mitigate.
 
-Decision
+## Decision
 
 Engineering Capabilities may mature through different engineering workflows.
 
@@ -156,7 +157,7 @@ Functional Capabilities may proceed directly from Capability Review to Requireme
 
 Constraining Capabilities require additional engineering inputs from specialized disciplines before complete System Requirements can be developed.
 
-Consequences
+## Consequences
 Capability Reviews remain discipline independent.
 Capability Areas remain stable engineering responsibilities.
 Risk Management, Cybersecurity, Human Factors, and similar disciplines may generate additional System Requirements within existing Capability Areas.

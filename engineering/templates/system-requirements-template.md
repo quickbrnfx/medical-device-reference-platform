@@ -93,6 +93,25 @@ Only approved Capability Areas may be decomposed into System Requirements.
 
 ---
 
+# Design Inputs
+
+System Requirements are derived from approved engineering design inputs.
+
+Design inputs may include:
+
+- Approved User Needs
+- Approved Capability Areas
+- Regulatory requirements
+- Applicable standards
+- Risk control measures
+- Human factors engineering activities
+- Product security requirements
+- Interface requirements
+
+Every System Requirement shall trace to one or more approved design inputs.
+
+---
+
 # Requirement Development Principles
 
 Every System Requirement shall:
@@ -145,21 +164,36 @@ Each System Requirement contains:
 
 # Requirement Categories
 
-System Requirements may be organized into categories as appropriate.
+Requirement categories provide organization only.
 
-Examples include:
+Categories shall not affect requirement quality, traceability, or engineering rigor.
 
-- Functional Requirements
-- Performance Requirements
-- Interface Requirements
-- Safety Requirements
-- Security Requirements
-- Human Factors Requirements
-- Reliability Requirements
+Example categories include:
 
-Categories provide organization only.
+- Functional
+- Performance
+- Interface
+- Safety
+- Cybersecurity
+- Human Factors
+- Reliability
+- Regulatory
 
-All requirements follow the same engineering development process.
+All requirements follow the same engineering development and review process regardless of category.
+
+---
+
+# Requirement Status
+
+Requirements progress through the following lifecycle.
+
+| Status | Description |
+|----------|-------------|
+| Draft | Under development |
+| Proposed | Submitted for review |
+| Approved | Part of the engineering baseline |
+| Superseded | Replaced by another requirement |
+| Retired | Removed from future development while preserved for history |
 
 ---
 
@@ -171,9 +205,28 @@ All requirements follow the same engineering development process.
 
 ---
 
-# Requirement Traceability
+# Requirement Traceability & Philosophy
 
-Every requirement shall trace to an approved Capability Area and User Need.
+Every System Requirement exists because an approved engineering decision established its necessity.
+
+Minimum traceability is:
+
+User Need
+
+↓
+
+Capability Area
+
+↓
+
+System Requirement
+
+Additional traceability may include:
+
+- Risk Controls
+- Verification Methods
+- Architecture Allocation
+- Interface Definitions
 
 | Requirement | Capability Area | User Need |
 |-------------|-----------------|-----------|

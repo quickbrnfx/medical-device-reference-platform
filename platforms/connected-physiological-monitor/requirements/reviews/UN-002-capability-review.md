@@ -191,6 +191,8 @@ Finding: The Capability Review determined that the term "protected" could not be
 
 Engineering Question: Does User Need UN-002 represent a single functional need, or does it combine multiple distinct user needs under the term "protected"?
 
+Observation: During decomposition of UN-002, it was determined that the User Need primarily constrains the behavior of existing functional capabilities defined by UN-001 rather than introducing multiple new functional capabilities. Candidate capabilities for Confidentiality and Integrity were evaluated but did not yield independent functional responsibilities.
+
 # Review Decision
 
 ## Capability Status

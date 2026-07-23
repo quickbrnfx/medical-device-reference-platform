@@ -49,3 +49,20 @@ Each candidate should include:
 No methodology change at this time.
 
 This finding will remain open until additional Capability Reviews provide sufficient evidence to determine whether the Capability Review template should be updated.
+
+## Methodology Observation 002
+
+Observation
+
+UN-002 did not require an Engineering Review because engineering changes remained within a single engineering package.
+
+Confidence
+
+Medium
+
+Evidence
+
+UN-001
+UN-002
+
+Revisit after additional User Needs.

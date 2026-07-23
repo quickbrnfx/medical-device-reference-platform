@@ -113,7 +113,7 @@ Quantitative requirements shall be objectively measurable.
 
 # Requirement Decomposition
 
-Before developing individual requirements, each User Need is decomposed into representative engineering capability areas.
+Before developing individual system requirements, each User Need is decomposed into approved engineering Capability Areas. Capability Areas define the distinct engineering responsibilities that collectively satisfy the User Need and provide the basis for requirements development. Capability Areas are not themselves engineering requirements.
 
 | User Need | Requirement Capability Areas |
 |-----------|------------------------------|

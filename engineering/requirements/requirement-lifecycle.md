@@ -30,10 +30,18 @@ User Need
 Capability Review
         ↓
 Approved Capability Area
-        ↓
-Requirements Review
-        ↓
-Approved System Requirement
+        │
+        ├──────────────┐
+        │              │
+Functional      Constraining
+Capability      Capability
+        │              │
+Requirements    Domain Engineering
+Review          (Risk, HF, Cyber)
+        │              │
+        └──────┬───────┘
+               │
+      Approved Requirements
         ↓
 Architecture Allocation
         ↓

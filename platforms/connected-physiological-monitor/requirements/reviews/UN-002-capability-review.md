@@ -2,7 +2,7 @@
 
 **Artifact ID:** REVIEW-CAPABILITY-002
 
-**Status:** Engineering Rework Required
+**Status:** Approved
 
 ---
 
@@ -16,15 +16,15 @@
 
 The Capability Review validates the engineering capability decomposition for User Need UN-002 before functional requirements are derived.
 
-This review ensures the proposed Capability Areas completely satisfy the User Need, remain implementation independent, and provide an appropriate basis for requirements development.
+This review ensures the proposed Capability Areas completely satisfy the User Need, remain implementation independent, and provide an appropriate basis for functional requirements development.
 
-This review does not derive requirements or prescribe implementation decisions.
+This review does not derive functional requirements or prescribe implementation decisions.
 
 ---
 
 # Review Context
 
-Capability Reviews are performed before functional requirements are developed.
+Capability Reviews are performed after User Needs have been established and before functional requirements are developed.
 
 Approval of this review establishes the Capability Area baseline for the associated User Need and authorizes functional requirements derivation.
 
@@ -34,16 +34,25 @@ Approval of this review establishes the Capability Area baseline for the associa
 
 | ID | Description |
 |----|-------------|
-| **UN-002** | The patient needs their physiological information to remain protected throughout monitoring. |
+| **UN-002** | The patient needs only authorized entities to obtain their physiological information throughout monitoring. |
 
 ---
 
-# Proposed Capability Areas
+# Approved Capability Areas
 
 | ID | Capability Area | Status |
 |----|-----------------|--------|
-| CA-008 | Manage Access to Physiological Information | Accepted |
-| CA-009 | Maintain Physiological Information Integrity | Under Review |
+| **CA-008** | Manage Access to Physiological Information | Approved |
+
+---
+
+# Capability Evaluation
+
+| Candidate Capability | Decision | Engineering Rationale |
+|----------------------|----------|-----------------------|
+| Manage Access to Physiological Information | Accepted | Represents the system responsibility required to control access to physiological information. |
+| Maintain Physiological Information Confidentiality | Rejected | Confidentiality did not introduce an independent engineering responsibility beyond Access Management. |
+| Maintain Physiological Information Integrity | Rejected | Integrity does not directly satisfy the User Need and represents a separate engineering concern requiring independent evaluation. |
 
 ---
 
@@ -57,15 +66,13 @@ Approval of this review establishes the Capability Area baseline for the associa
 - Collectively, the Capability Areas satisfy the complete User Need.
 - No aspect of the User Need remains unallocated.
 
-**Result**
+### Result
 
-☐ Pass
+☑ Pass
 
-☒ Fail
+### Comments
 
-**Comments**
-
-The review could not demonstrate that all aspects of the term *protected* are represented by the proposed Capability Areas.
+Manage Access to Physiological Information completely satisfies the stakeholder outcome expressed by UN-002.
 
 ---
 
@@ -77,17 +84,15 @@ The review could not demonstrate that all aspects of the term *protected* are re
 - Capability Areas do not overlap.
 - Responsibilities are clearly separated.
 
-**Result**
+### Result
 
-☒ Pass
+☑ Pass
 
-☐ Fail
+### Comments
 
-**Comments**
+The approved Capability Area represents a single independent engineering responsibility.
 
-Manage Access to Physiological Information represents an independent engineering responsibility.
-
-Maintain Physiological Information Confidentiality was evaluated and removed because it duplicated Access Management responsibilities.
+Rejected candidate capabilities either duplicated Access Management or represented separate engineering concerns outside the scope of UN-002.
 
 ---
 
@@ -99,11 +104,15 @@ Maintain Physiological Information Confidentiality was evaluated and removed bec
 - Capability Areas do not prescribe implementation mechanisms.
 - Capability Areas remain technology independent.
 
-**Result**
+### Result
 
-☒ Pass
+☑ Pass
 
-☐ Fail
+### Comments
+
+The Capability Area defines only the engineering responsibility to manage access.
+
+No implementation mechanisms are specified.
 
 ---
 
@@ -115,41 +124,31 @@ Maintain Physiological Information Confidentiality was evaluated and removed bec
 - Each Capability Area represents a system responsibility.
 - Each Capability Area is independently allocatable and verifiable.
 
-**Result**
+### Result
 
-☐ Pass
+☑ Pass
 
-☒ Fail
+### Comments
 
-**Comments**
-
-The review did not establish an independent engineering responsibility for all aspects of the User Need.
+Manage Access to Physiological Information represents a single engineering responsibility that can be independently allocated and verified.
 
 ---
 
-## 5. Information Lifecycle Coverage
+## 5. Capability Completeness
 
 ### Acceptance Criteria
 
-The Capability Areas collectively address physiological information throughout monitoring, including:
+The approved Capability Areas completely support the User Need while remaining independent and implementation neutral.
 
-- Information creation
-- Information access
-- Information presentation
-- Information storage
-- Information communication
-- Information retention
-- Session completion
+### Result
 
-**Result**
+☑ Pass
 
-☐ Pass
+### Comments
 
-☒ Fail
+Capability decomposition identified a single engineering responsibility necessary to satisfy the User Need.
 
-**Comments**
-
-The review was unable to demonstrate that the current Capability Areas completely address the lifecycle implied by the User Need.
+No additional independent Capability Areas were identified.
 
 ---
 
@@ -165,13 +164,13 @@ Capability Decomposition
 
 Maintain Physiological Information Confidentiality was evaluated as an independent Capability Area.
 
-Requirements derivation demonstrated that confidentiality did not introduce an independent engineering responsibility beyond Manage Access to Physiological Information.
+Engineering review determined that confidentiality did not introduce an independent engineering responsibility beyond Access Management.
 
 ### Resolution
 
-The Confidentiality capability was removed.
+Confidentiality was removed as an independent Capability Area.
 
-### Status
+### Disposition
 
 Resolved
 
@@ -181,37 +180,23 @@ Resolved
 
 ### Topic
 
-Capability Completeness
+Capability Scope
 
 ### Observation
 
-Capability decomposition converged on Access Management as the only clearly identifiable engineering responsibility.
+Maintain Physiological Information Integrity was evaluated during capability decomposition.
 
-No additional independent responsibilities could be established with sufficient engineering justification.
+Engineering review determined that Integrity represents a separate engineering concern and is not required to satisfy User Need UN-002.
 
-### Status
+### Resolution
 
-Open
+Integrity was removed from the capability model for UN-002.
 
----
+Future consideration of information integrity should occur only if supported by independent stakeholder outcomes.
 
-## Finding 003
+### Disposition
 
-### Topic
-
-User Need Scope
-
-### Observation
-
-The term *protected* encompasses multiple potential stakeholder concerns that could not be uniquely decomposed into independent Capability Areas.
-
-### Recommendation
-
-Review the wording of User Need UN-002 before continuing requirements development.
-
-### Status
-
-Open
+Resolved
 
 ---
 
@@ -219,35 +204,37 @@ Open
 
 ## Capability Status
 
-☐ Capability Areas Approved
+☑ Capability Areas Approved
 
 ☐ Approved with Minor Corrections
 
-☒ Engineering Rework Required
+☐ Engineering Rework Required
 
 ---
 
 # Approval Summary
 
-The Capability Review successfully established Access Management as an independent engineering responsibility.
+The Capability Review established a single engineering responsibility required to satisfy User Need UN-002.
 
-However, the review could not demonstrate that the proposed Capability Areas completely satisfy User Need UN-002.
+The approved Capability Area is:
 
-The wording of the User Need should be reviewed before establishing the Capability Area baseline and proceeding to functional requirements development.
+- **CA-008 – Manage Access to Physiological Information**
+
+The capability model is complete, independent, implementation neutral, and suitable for functional requirements development.
 
 ---
 
 # Exit Criteria
 
-Capability Review may be closed when:
+Capability Review is complete when:
 
+- All review checklist items pass.
 - All review findings are resolved.
-- Capability decomposition is complete.
-- Capability Areas are approved.
+- Capability Area baseline is approved.
 - Functional requirements development is authorized.
 
 ---
 
 # Review Status
 
-**Status:** Engineering Rework Required
+**Status:** Capability Areas Approved

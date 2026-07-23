@@ -8,7 +8,9 @@
 
 Capture stakeholder needs in a solution-independent manner.
 
-User Needs describe the outcomes stakeholders require from the system without prescribing implementation decisions.
+This User Need expresses the stakeholder outcome of controlling who may obtain physiological information during monitoring.
+
+The User Need intentionally avoids prescribing implementation mechanisms (e.g., authentication methods, encryption, or software architecture). Engineering responsibilities are derived during Capability Review.
 
 The purpose of this document is to establish the foundation from which System Requirements, Human Factors Engineering, System Architecture, Cybersecurity Engineering, and Validation activities are derived.
 

@@ -137,7 +137,7 @@ The revised User Need enables complete engineering traceability from stakeholder
 - Functional requirements become directly traceable.
 - Other concerns (e.g., information accuracy, availability, patient association) remain open for evaluation in future engineering work.
 
-# DEC-004 — Constraining Capabilities Require Domain Engineering
+## DEC-004 — Constraining Capabilities Require Domain Engineering
 
 ## Status
 

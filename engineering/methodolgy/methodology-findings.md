@@ -50,7 +50,7 @@ No methodology change at this time.
 
 This finding will remain open until additional Capability Reviews provide sufficient evidence to determine whether the Capability Review template should be updated.
 
-## Methodology Observation 002
+# Methodology Observation 002
 
 Observation
 

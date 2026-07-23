@@ -93,7 +93,7 @@ Ensure physiological information is made available only to authorized entities t
 
 ## Review Status
 
-**Status:** In Progress
+**Status:** Baseline Approved
 
 This Capability Area establishes the functional requirements governing access to physiological information.
 
@@ -111,13 +111,30 @@ Prevent unauthorized disclosure of physiological information throughout monitori
 
 ## Functional Requirements
 
-*To be developed.*
+### SR-072
+
+**Requirement**
+
+> The system shall disclose physiological information only to authorized entities.
+
+**Verification**
+
+- Test
+
+**Traceability**
+
+- UN-002
+- CA-009
 
 ---
 
 ## Review Status
 
-**Status:** In Progress
+**Status:** Baseline Approved
+
+This Capability Area establishes the functional requirements governing confidentiality of physiological information.
+
+Additional performance, cybersecurity implementation, interface, and quality requirements may refine these requirements but shall not alter their intended functional behavior without an approved engineering change.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-System Requirements define the capabilities, behaviors, constraints, and qualities that a system must satisfy to fulfill stakeholder needs.
+System Requirements define the behaviors, constraints, and qualities that a system must satisfy to fulfill stakeholder needs. Requirements are derived from approved engineering capabilities.
 
 They establish an objective description of the system and serve as the primary engineering specification from which architecture, implementation, and verification are derived.
 
@@ -65,16 +65,16 @@ User Need
 Identify Capability Areas
       │
       ▼
-Review Capability Areas
+Capability Review
       │
       ▼
-Freeze Capability Areas
+Approve Capability Areas
       │
       ▼
 Derive Functional Requirements
       │
       ▼
-Peer Review
+Requirements Review
       │
       ▼
 Next User Need
@@ -83,18 +83,38 @@ Next User Need
 Once all User Needs have been translated into functional requirements, additional engineering disciplines refine the specification.
 
 ```text
-Functional Requirements
-        │
-        ├──────────────┐
-        ▼              ▼
-Risk Analysis    Cybersecurity Engineering
-        ▼              ▼
-Safety Req.      Security Req.
-        └──────────────┘
-               ▼
-Performance / Interface / Quality Requirements
-               ▼
-System Requirements Baseline
+User Need
+      │
+      ▼
+Identify Capability Areas
+      │
+      ▼
+Capability Review
+      │
+      ▼
+Approve Capability Areas
+      │
+      ▼
+Derive Functional Requirements
+      │
+      ▼
+Requirements Review
+      │
+      ▼
+──────────────────────────────
+Additional baseline artifacts affected?
+──────────────────────────────
+      │
+  ┌───┴───┐
+  │       │
+ No      Yes
+  │       │
+  ▼       ▼
+Next   Engineering
+User     Review
+Need       │
+           ▼
+      Baseline Review
 ```
 
 This approach ensures that functional behavior is established before engineering constraints are applied, improving traceability and reducing premature design decisions.

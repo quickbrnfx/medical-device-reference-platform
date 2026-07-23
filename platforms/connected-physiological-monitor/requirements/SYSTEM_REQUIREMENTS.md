@@ -117,7 +117,7 @@ Before developing individual requirements, each User Need is decomposed into rep
 
 | User Need | Requirement Capability Areas |
 |-----------|------------------------------|
-| **UN-001** Patient monitoring | Monitoring Session Management, Physiological Data Acquisition, Physiological Data Processing |
+| **UN-001** Patient monitoring | Manage Monitoring Session, Manage Monitoring State, Manage Monitoring Configuration, Acquire Physiological Measurements, Provide Physiological Measurement Availability, Process Physiological Measurements, Provide Physiological Information |
 | **UN-002** Information protection | Identity & Access Management, Data Protection, Secure Communications, Audit Logging |
 | **UN-003** Identify clinically significant changes | Clinical Event Detection, Clinical Notification |
 | **UN-004** Patient safety | Fault Management, Safety Controls |

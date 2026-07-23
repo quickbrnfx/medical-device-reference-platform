@@ -204,6 +204,19 @@ Resolved / Open
 
 ---
 
+## Requirements Readiness
+
+| Status | Description |
+|---------|-------------|
+| Ready | Capability may proceed directly to Requirements Review. |
+| Pending Domain Engineering | Additional engineering discipline(s) must provide inputs before complete requirements can be developed. |
+
+Selected Status:
+
+Pending Domain Engineering
+
+---
+
 # Approval Summary
 
 <Summary>

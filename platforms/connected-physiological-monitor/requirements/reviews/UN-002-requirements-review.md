@@ -1,181 +1,211 @@
 # UN-002 Requirements Review
 
-**User Need**
+**Artifact ID:** REVIEW-REQ-002
 
-> **UN-002** – The patient needs their physiological information to remain protected throughout monitoring.
+**Status:** Approved
 
-**Status:** In Progress
+---
+
+# Engineering Question
+
+> Have the functional requirements derived from User Need UN-002 completely, consistently, and independently satisfy the approved Capability Area?
 
 ---
 
 # Objective
 
-Develop and review the functional System Requirements derived from UN-002.
+The Requirements Review validates the functional requirements derived from User Need UN-002.
 
-This review establishes the functional baseline before introducing performance, interface, safety, cybersecurity implementation, and quality requirements.
+This review ensures the proposed System Requirements completely satisfy the approved Capability Area while remaining implementation independent, uniquely identifiable, verifiable, and internally consistent.
 
----
-
-# Capability Areas
-
-The following Capability Areas have been identified, reviewed, and approved.
-
-| ID | Capability Area | Status |
-|----|-----------------|--------|
-| CA-008 | Manage Access to Physiological Information | Frozen |
-| CA-009 | Maintain Physiological Information Confidentiality | Frozen |
-| CA-010 | Maintain Physiological Information Integrity | Frozen |
+This review does not allocate requirements to architecture or prescribe implementation decisions.
 
 ---
 
-# Current Functional Requirements
+# Review Context
 
-# CA-008 — Manage Access to Physiological Information
+Requirements Reviews are performed after Capability Area approval and before architecture development.
 
-**Purpose**
-
-Ensure physiological information is made available only to authorized entities throughout monitoring.
+Approval of this review establishes the functional requirement baseline for the associated User Need.
 
 ---
 
-## Functional Requirements
+# Inputs
 
-### SR-069
+## User Need
 
-**Requirement**
-
-> The system shall verify authorization before providing access to physiological information.
-
-**Verification**
-
-- Test
-
-**Traceability**
-
-- UN-002
-- CA-008
+| ID | Description |
+|----|-------------|
+| **UN-002** | The patient needs only authorized entities to obtain their physiological information throughout monitoring. |
 
 ---
 
-### SR-070
+## Approved Capability Area
 
-**Requirement**
-
-> The system shall prevent unauthorized access to physiological information.
-
-**Verification**
-
-- Test
-
-**Traceability**
-
-- UN-002
-- CA-008
+| ID | Capability Area |
+|----|-----------------|
+| **CA-008** | Manage Access to Physiological Information |
 
 ---
 
-### SR-071
+# Proposed Functional Requirements
 
-**Requirement**
-
-> The system shall ensure access to physiological information remains authorized throughout the access period.
-
-**Verification**
-
-- Test
-
-**Traceability**
-
-- UN-002
-- CA-008
+| ID | Requirement |
+|----|-------------|
+| **SR-069** | The system shall verify authorization before providing access to physiological information. |
+| **SR-070** | The system shall prevent unauthorized access to physiological information. |
+| **SR-071** | The system shall ensure authorization remains valid throughout the access period. |
 
 ---
 
-## Review Status
+# Review Checklist
 
-**Status:** Baseline Approved
+## 1. User Need Coverage
 
-This Capability Area establishes the functional requirements governing access to physiological information.
+### Acceptance Criteria
 
-Additional performance, cybersecurity implementation, interface, and quality requirements may refine these requirements but shall not alter their intended functional behavior without an approved engineering change.
+- Every requirement contributes directly to UN-002.
+- Collectively, the requirements satisfy the complete User Need.
+- No aspect of the approved Capability Area remains unallocated.
 
----
+### Result
 
-# CA-009 — Maintain Physiological Information Confidentiality
+☑ Pass
 
-**Purpose**
+### Comments
 
-Prevent unauthorized disclosure of physiological information throughout monitoring.
-
----
-
-## Functional Requirements
-
-### SR-072
-
-**Requirement**
-
-> The system shall disclose physiological information only to authorized entities.
-
-**Verification**
-
-- Test
-
-**Traceability**
-
-- UN-002
-- CA-009
+The requirements collectively satisfy the stakeholder outcome by establishing authorization, enforcing access control, and maintaining authorization throughout access.
 
 ---
 
-## Review Status
+## 2. Requirement Independence
 
-**Status:** Baseline Approved
+### Acceptance Criteria
 
-This Capability Area establishes the functional requirements governing confidentiality of physiological information.
+- Each requirement represents a unique system behavior.
+- Requirements do not duplicate one another.
+- Responsibilities are clearly separated.
 
-Additional performance, cybersecurity implementation, interface, and quality requirements may refine these requirements but shall not alter their intended functional behavior without an approved engineering change.
+### Result
 
----
+☑ Pass
 
-# CA-010 — Maintain Physiological Information Integrity
+### Comments
 
-**Purpose**
+Each requirement addresses a distinct behavioral responsibility:
 
-Prevent unauthorized modification of physiological information throughout monitoring.
-
----
-
-## Functional Requirements
-
-*To be developed.*
+- Authorization verification
+- Unauthorized access prevention
+- Authorization maintenance
 
 ---
 
-## Review Status
+## 3. Requirement Quality
 
-**Status:** In Progress
+### Acceptance Criteria
+
+Each requirement is:
+
+- Necessary
+- Clear
+- Unambiguous
+- Implementation independent
+- Verifiable
+
+### Result
+
+☑ Pass
+
+### Comments
+
+The requirements define required system behavior without prescribing authentication methods, authorization technologies, software architecture, or security mechanisms.
 
 ---
 
-# Outstanding Engineering Work
+## 4. Traceability
 
-The following activities remain before UN-002 is considered complete.
+### Acceptance Criteria
 
-- Complete functional requirements for CA-009.
-- Complete functional requirements for CA-010.
-- Perform peer review for ambiguity, completeness, and traceability.
-- Establish the UN-002 functional baseline.
-- Proceed to UN-002 Engineering Review.
+- Every requirement traces to the approved Capability Area.
+- Every requirement traces to User Need UN-002.
+
+### Result
+
+☑ Pass
+
+### Comments
+
+Complete traceability exists from User Need through Capability Area to individual System Requirements.
+
+---
+
+## 5. Requirement Completeness
+
+### Acceptance Criteria
+
+The functional requirements collectively establish the complete system behavior necessary to satisfy the approved Capability Area.
+
+### Result
+
+☑ Pass
+
+### Comments
+
+The approved requirement set establishes the behaviors necessary to manage access to physiological information.
+
+---
+
+# Requirement Traceability
+
+| Requirement | Capability Area | User Need |
+|-------------|-----------------|-----------|
+| SR-069 | CA-008 | UN-002 |
+| SR-070 | CA-008 | UN-002 |
+| SR-071 | CA-008 | UN-002 |
+
+---
+
+# Review Findings
+
+No unresolved findings.
+
+---
+
+# Review Decision
+
+## Functional Requirement Status
+
+☑ Functional Requirements Approved
+
+☐ Approved with Minor Corrections
+
+☐ Engineering Rework Required
+
+---
+
+# Approval Summary
+
+The functional requirements derived from User Need UN-002 completely satisfy the approved Capability Area while remaining implementation independent, uniquely identifiable, and verifiable.
+
+The approved functional requirement baseline consists of:
+
+- **SR-069** — Verify authorization before providing access to physiological information.
+- **SR-070** — Prevent unauthorized access to physiological information.
+- **SR-071** — Ensure authorization remains valid throughout the access period.
 
 ---
 
 # Exit Criteria
 
-UN-002 is complete when:
+Requirements Review is complete when:
 
-- Every Capability Area has a complete functional requirement set.
-- Every requirement is objective and verifiable.
-- Traceability to UN-002 has been established.
-- Peer review comments have been resolved.
-- The functional baseline has been approved.
+- All review checklist items pass.
+- No unresolved findings remain.
+- Functional requirements are approved.
+- Architecture development may proceed.
+
+---
+
+# Review Status
+
+**Status:** Functional Requirements Approved

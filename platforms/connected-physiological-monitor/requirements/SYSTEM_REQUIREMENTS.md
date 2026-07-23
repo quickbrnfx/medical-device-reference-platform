@@ -32,19 +32,34 @@ Every System Requirement shall:
 
 # Requirement Development
 
-System Requirements are derived from stakeholder User Needs and decompose each stakeholder goal into one or more verifiable engineering requirements.
+# Requirement Development
+
+System Requirements are derived through a structured engineering decomposition process that transforms stakeholder objectives into verifiable engineering behaviors.
+
+Each User Need is first decomposed into one or more engineering Capability Areas. Capability Areas define the engineering responsibilities required to satisfy the User Need and establish the basis for detailed requirements development.
+
+Approved Capability Areas are then decomposed into the minimum set of observable System Requirements necessary to fulfill each engineering responsibility.
 
 ```text
 Stakeholder Persona
         ↓
 User Need
         ↓
+Capability Review
+        ↓
+Approved Capability Area
+        ↓
+Requirements Review
+        ↓
 System Requirement(s)
         ↓
 Verification Case(s)
 ```
 
-Every System Requirement shall trace to at least one User Need.
+Every System Requirement shall trace to:
+
+- at least one approved User Need
+- at least one approved Capability Area
 
 ---
 
@@ -113,21 +128,25 @@ Quantitative requirements shall be objectively measurable.
 
 # Requirement Decomposition
 
-Before developing individual system requirements, each User Need is decomposed into approved engineering Capability Areas. Capability Areas define the distinct engineering responsibilities that collectively satisfy the User Need and provide the basis for requirements development. Capability Areas are not themselves engineering requirements.
+Before developing individual System Requirements, each User Need is decomposed into one or more approved engineering Capability Areas. Capability Areas define the engineering responsibilities that collectively satisfy the User Need and provide the basis for requirements development.
 
-| User Need | Requirement Capability Areas |
-|-----------|------------------------------|
-| **UN-001** Patient monitoring | Manage Monitoring Session, Manage Monitoring State, Manage Monitoring Configuration, Acquire Physiological Measurements, Provide Physiological Measurement Availability, Process Physiological Measurements, Provide Physiological Information |
-| **UN-002** Information protection | Identity & Access Management, Data Protection, Secure Communications, Audit Logging |
-| **UN-003** Identify clinically significant changes | Clinical Event Detection, Clinical Notification |
-| **UN-004** Patient safety | Fault Management, Safety Controls |
-| **UN-005** Establish monitoring | Session Establishment, Patient Association, Monitoring Configuration |
-| **UN-006** Monitor patient condition | Physiological Data Presentation, Monitoring Status Indication |
-| **UN-007** Respond to abnormal conditions | Alarm Management, Fault Recovery |
-| **UN-008** Conclude monitoring | Session Completion, Data Preservation |
-| **UN-009** Assess patient condition | Clinical Data Review, Historical Data Access |
-| **UN-010** Recognize clinically significant changes | Trend Analysis, Event History |
-| **UN-011** Support continuity of care | Record Management, Data Export |
+Capability Areas are engineering responsibilities, not engineering requirements.
+
+| User Need | Approved Capability Areas |
+|-----------|---------------------------|
+| **UN-001** Patient monitoring | CA-001 – CA-007 |
+| **UN-002** Information protection | **CA-008 – Manage Access to Physiological Information** |
+| **UN-003** Identify clinically significant changes | **CA-009 – Identify Clinically Significant Physiological Changes** |
+| **UN-004** Patient safety | TBD |
+| **UN-005** Establish monitoring | TBD |
+| **UN-006** Monitor patient condition | TBD |
+| **UN-007** Respond to abnormal conditions | TBD |
+| **UN-008** Conclude monitoring | TBD |
+| **UN-009** Assess patient condition | TBD |
+| **UN-010** Recognize clinically significant changes | TBD |
+| **UN-011** Support continuity of care | TBD |
+
+Capability Areas organize engineering responsibilities prior to detailed requirements development.
 
 Capability Areas organize requirements development but are not themselves engineering requirements.
 
@@ -135,23 +154,23 @@ Capability Areas organize requirements development but are not themselves engine
 
 # System Requirements Summary
 
-Detailed System Requirements will be developed within each capability area.
+Approved System Requirements are organized by User Need and associated Capability Areas.
 
 | User Need | Capability Areas | Requirement IDs |
-| --------- | ---------------- | --------------- |
-| UN-001    | CA-001 – CA-007  | SR-001 – SR-068 |
-| UN-002    | CA-008 – CA-010  | SR-069 – SR-0XX |
-| UN-003    | TBD              | TBD             |
-| UN-004    | TBD              | TBD             |
-| UN-005    | TBD              | TBD             |
-| UN-006    | TBD              | TBD             |
-| UN-007    | TBD              | TBD             |
-| UN-008    | TBD              | TBD             |
-| UN-009    | TBD              | TBD             |
-| UN-010    | TBD              | TBD             |
-| UN-011    | TBD              | TBD             |
+|-----------|------------------|-----------------|
+| **UN-001** | CA-001 – CA-007 | SR-001 – SR-068 |
+| **UN-002** | CA-008 | SR-069 – SR-071 |
+| **UN-003** | CA-009 | SR-072 – SR-073 |
+| **UN-004** | TBD | TBD |
+| **UN-005** | TBD | TBD |
+| **UN-006** | TBD | TBD |
+| **UN-007** | TBD | TBD |
+| **UN-008** | TBD | TBD |
+| **UN-009** | TBD | TBD |
+| **UN-010** | TBD | TBD |
+| **UN-011** | TBD | TBD |
 
-This document establishes the engineering framework for developing complete, traceable System Requirements while preserving traceability to originating User Needs.
+This document establishes the engineering baseline for approved System Requirements while preserving traceability to approved User Needs and Capability Areas.
 
 ---
 
@@ -195,12 +214,15 @@ System Requirements represent the primary engineering contract between Product D
 - Requirement decomposition improves organization and traceability before detailed specification.
 - Requirements should describe externally observable system behavior rather than implementation.
 - Stable System Requirements reduce downstream architecture and verification changes.
+- - User Needs are first decomposed into engineering Capability Areas.
+- Approved Capability Areas are subsequently decomposed into one or more System Requirements.
 
 ---
 
 # Engineering Principles
 
-- Every System Requirement should satisfy one or more User Needs.
+- Every System Requirement shall trace to one or more approved Capability Areas.
+- Every approved Capability Area shall trace to one or more User Needs.
 - Requirements should specify system obligations rather than implementation whenever practical.
 - Requirements should be written so they can be objectively verified.
 - Clear decomposition before specification produces more complete and maintainable requirements.
@@ -216,6 +238,7 @@ System Requirements represent the primary engineering contract between Product D
 - Operational Context
 - Stakeholder Personas
 - User Needs
+- Approved Capability Areas
 
 ## Outputs
 

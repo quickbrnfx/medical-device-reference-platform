@@ -187,6 +187,10 @@ Resolved
 
 ---
 
+Finding: The Capability Review determined that the term "protected" could not be decomposed into multiple independent functional responsibilities based on the current User Need. Candidate Capability Areas for Confidentiality and Integrity were evaluated and rejected because they either duplicated Access Management or represented quality properties rather than independent system responsibilities.
+
+Engineering Question: Does User Need UN-002 represent a single functional need, or does it combine multiple distinct user needs under the term "protected"?
+
 # Review Decision
 
 ## Capability Status

@@ -49,6 +49,21 @@ The current focus is establishing the initial system requirements for the Connec
 # Active Tasks
 
 - [ ] Define the initial System Requirements baseline
+
+Current Capability Reviews
+
+✅ UN-001
+✅ UN-002
+✅ UN-003
+✅ UN-004
+
+Requirements
+
+✅ CA-001 through CA-009
+
+🟡 CA-010
+Pending Risk Engineering
+      
 - [ ] Establish Requirement Traceability
 - [ ] Allocate System Requirements
 - [ ] Review and refine Requirements

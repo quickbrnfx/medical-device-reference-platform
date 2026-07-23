@@ -40,11 +40,10 @@ Approval of this review establishes the Capability Area baseline for the associa
 
 # Proposed Capability Areas
 
-| ID | Capability Area | Purpose |
-|----|-----------------|---------|
-| **CA-008** | Manage Access to Physiological Information | Ensure physiological information is made available only to authorized entities throughout monitoring. |
-| **CA-009** | Maintain Physiological Information Confidentiality | Prevent unauthorized disclosure of physiological information throughout monitoring. |
-| **CA-010** | Maintain Physiological Information Integrity | Prevent unauthorized modification of physiological information throughout monitoring. |
+| ID | Capability Area | Status |
+|----|-----------------|--------|
+| CA-008 | Manage Access to Physiological Information | Frozen |
+| CA-009 | Maintain Physiological Information Integrity | Frozen |
 
 ---
 
@@ -162,6 +161,30 @@ The Capability Areas collectively protect physiological information throughout m
 |----|----------|----------|------------|
 | None | No unresolved findings. | N/A | N/A |
 
+### Finding 1
+
+**Topic**
+
+Capability Decomposition
+
+**Observation**
+
+Maintain Physiological Information Confidentiality was evaluated as an independent Capability Area.
+
+Requirements derivation determined that confidentiality did not introduce an independent system responsibility beyond the management of access to physiological information.
+
+Every candidate confidentiality requirement either duplicated the responsibilities defined by Manage Access to Physiological Information or introduced implementation-specific security mechanisms.
+
+**Resolution**
+
+Maintain Physiological Information Confidentiality was removed as an independent Capability Area.
+
+Confidentiality is satisfied through the approved requirements governing Manage Access to Physiological Information.
+
+**Disposition**
+
+Resolved
+
 ---
 
 # Review Decision
@@ -188,9 +211,12 @@ YYYY-MM-DD
 
 **Comments**
 
-The proposed Capability Areas provide a complete, non-overlapping, and implementation-independent decomposition of User Need UN-002.
+The approved Capability Areas completely satisfy User Need UN-002 through two independent system responsibilities:
 
-The Capability Area baseline is approved for functional requirements development.
+- Manage Access to Physiological Information
+- Maintain Physiological Information Integrity
+
+The Capability Model has been reviewed for completeness, independence, and implementation independence.
 
 ---
 

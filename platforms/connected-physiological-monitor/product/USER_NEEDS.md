@@ -66,7 +66,7 @@ This derivation establishes the engineering rationale linking stakeholder goals 
 | ID | User Need | Priority | Reasoning |
 |----|-----------|:--------:|-----------|
 | **UN-001** | The patient needs physiological monitoring to support their care. | **High** | The primary purpose of the system. |
-| **UN-002** | The patient needs their physiological information to remain protected throughout monitoring. | **High** | Security and privacy are fundamental stakeholder expectations for medical devices. |
+| **UN-002** | The patient needs only authorized entities to obtain their physiological information throughout monitoring. | **High** | Security and privacy are fundamental stakeholder expectations for medical devices. |
 | **UN-003** | The patient needs clinically significant changes in their physiological condition to be identified. | **High** | A core objective of physiological monitoring. |
 | **UN-004** | The patient needs monitoring to be performed without compromising their safety. | **High** | Safety is foundational to the intended use. |
 | **UN-005** | The clinical operator needs to establish physiological monitoring for a patient. | **High** | Monitoring cannot occur without successful setup. |

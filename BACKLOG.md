@@ -10,7 +10,15 @@ Completed work is documented through Git history and Architecture Decision Recor
 
 # Engineering Backlog
 
-No engineering backlog items.
+Engineering Question EQ-001
+
+During decomposition of UN-002, the following stakeholder concerns were identified but not allocated as independent User Needs:
+
+- Information accuracy
+- Patient association
+- Information availability
+
+These concerns should be revisited during development of future User Needs to determine whether they introduce independent system responsibilities or are satisfied through existing capabilities and requirements.
 
 ---
 

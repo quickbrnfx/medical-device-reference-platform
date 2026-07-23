@@ -160,10 +160,10 @@ These updates are architectural refinements only and do not change approved func
 
 | ID | Action | Status |
 |----|--------|--------|
-| A-001 | Update Functional Architecture to include CA-007. | Open |
-| A-002 | Update Logical Architecture to include CA-007. | Open |
-| A-003 | Update System Interface Architecture to include Physiological Information. | Open |
-| A-004 | Update System Behavior to include production of Physiological Information. | Open |
+| A-001 | Update Functional Architecture to include CA-007. | ✅ Complete |
+| A-002 | Update Logical Architecture to include CA-007. | ✅ Complete |
+| A-003 | Update System Interface Architecture to include Physiological Information. | ✅ Complete |
+| A-004 | Update System Behavior to include production of Physiological Information. | ✅ Complete |
 
 ---
 
@@ -174,3 +174,9 @@ The capability model derived from User Need UN-001 is considered complete.
 The introduction of **CA-007 – Physiological Information** resolved the identified producer-consumer gap while preserving implementation independence and architectural flexibility.
 
 Following completion of the required architectural updates, User Need UN-001 is considered suitable for engineering baseline.
+
+## Engineering Review Closure
+
+The required architectural updates identified during this Engineering Review have been completed and verified through the UN-001 Baseline Review.
+
+The findings documented in this review are retained as part of the engineering decision history.

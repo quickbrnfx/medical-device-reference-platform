@@ -6,13 +6,13 @@
 
 # Objective
 
-Capture stakeholder needs in a solution-independent manner.
+# Objective
 
-This User Need expresses the stakeholder outcome of controlling who may obtain physiological information during monitoring.
+Capture stakeholder needs in a solution-independent manner to establish the product outcomes that the reference platform must enable.
 
-The User Need intentionally avoids prescribing implementation mechanisms (e.g., authentication methods, encryption, or software architecture). Engineering responsibilities are derived during Capability Review.
+User Needs express stakeholder objectives rather than implementation decisions. They provide the foundation from which engineering disciplines derive System Requirements, Human Factors Engineering activities, System Architecture, Cybersecurity Engineering, Verification Planning, and Validation Planning.
 
-The purpose of this document is to establish the foundation from which System Requirements, Human Factors Engineering, System Architecture, Cybersecurity Engineering, and Validation activities are derived.
+The purpose of this document is to establish a stable product definition that remains independent of implementation throughout system development.
 
 ---
 
@@ -41,7 +41,7 @@ User Needs were derived by evaluating the goals of each primary stakeholder acro
 
 Operational Scenarios provide context for understanding stakeholder interactions with the reference platform, while Stakeholder Personas identify the underlying goals that remain consistent regardless of implementation.
 
-Each User Need represents a stakeholder objective that the reference platform must enable through one or more System Requirements.
+Each User Need represents a stakeholder objective that the reference platform must enable through one or more engineering responsibilities. These responsibilities are established during Capability Review and ultimately realized through one or more System Requirements.
 
 The following persona–scenario relationships were identified.
 
@@ -99,14 +99,17 @@ Priorities support engineering tradeoff discussions and implementation planning 
 
 Each User Need establishes one or more engineering objectives that are realized through downstream engineering outputs.
 
-| Engineering Output | Relationship |
-|----------------------|--------------|
-| System Requirements | Define behaviors that satisfy each User Need. |
-| System Architecture | Allocates system responsibilities that enable User Needs. |
-| Human Factors Engineering | Ensures user interactions support stakeholder goals. |
-| Cybersecurity Engineering | Protects stakeholder information and system assets. |
-| Verification Planning | Confirms engineering requirements derived from User Needs have been satisfied. |
-| Validation Planning | Demonstrates that stakeholder needs have been achieved in representative use environments. |
+| Engineering Output        | Relationship                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------------ |
+| Capability Areas          | Define the enduring engineering responsibilities required to satisfy each User Need. |
+| System Requirements       | Define the observable system behaviors that realize approved Capability Areas.       |
+| System Architecture       | Allocates engineering responsibilities across system elements.                       |
+| Human Factors Engineering | Ensures user interactions support stakeholder goals.                                 |
+| Cybersecurity Engineering | Identifies additional security requirements within approved Capability Areas.        |
+| Risk Management           | Identifies additional safety requirements within approved Capability Areas.          |
+| Verification Planning     | Confirms System Requirements have been satisfied.                                    |
+| Validation Planning       | Demonstrates User Needs have been achieved in representative use environments.       |
+
 
 User Needs serve as the primary bridge between Product Definition and Requirements Engineering.
 
@@ -117,7 +120,7 @@ User Needs serve as the primary bridge between Product Definition and Requiremen
 - User Needs describe stakeholder goals rather than operational tasks.
 - Multiple Operational Scenarios often contribute to a single stakeholder goal.
 - User Needs remain solution-independent and do not prescribe system behavior or implementation.
-- A single User Need may decompose into multiple System Requirements.
+- A single User Need typically decomposes into one or more Capability Areas, which are subsequently realized through one or more System Requirements.
 - User Needs should remain stable unless stakeholder objectives or intended use change.
 
 ---
@@ -127,7 +130,9 @@ User Needs serve as the primary bridge between Product Definition and Requiremen
 - Stakeholder goals should remain independent of implementation decisions.
 - Operational tasks should not be confused with stakeholder needs.
 - User Needs provide a stable foundation for Requirements Engineering.
-- Every System Requirement should trace to one or more User Needs.
+- Every Capability Area shall trace to one or more User Needs.
+- Every System Requirement shall trace to one or more approved Capability Areas.
+- Traceability from System Requirements to User Needs shall be maintained through Capability Areas.
 - User Needs should remain solution-independent so they can be satisfied by multiple system architectures and implementations.
 
 ---
@@ -143,10 +148,12 @@ User Needs serve as the primary bridge between Product Definition and Requiremen
 
 ## Outputs
 
+- Capability Areas
 - System Requirements
 - System Architecture
 - Human Factors Engineering
 - Cybersecurity Engineering
+- Risk Management
 - Verification Planning
 - Validation Planning
 
